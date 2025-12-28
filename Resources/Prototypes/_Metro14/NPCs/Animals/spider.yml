@@ -100,7 +100,8 @@
     heatDamageThreshold: 360
     coldDamageThreshold: -150
   - type: Temperature
-    сurrentTemperature: 310.15
+    currentTemperature: 310.15
+    specificHeat: 42
   - type: Tag
     tags:
       - CannotSuicide
@@ -214,7 +215,8 @@
     heatDamageThreshold: 360
     coldDamageThreshold: -150
   - type: Temperature
-    сurrentTemperature: 310.15
+    currentTemperature: 310.15
+    specificHeat: 42
   - type: Tag
     tags:
       - CannotSuicide

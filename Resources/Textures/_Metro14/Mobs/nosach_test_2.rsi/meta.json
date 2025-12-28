@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "license": "Metro-14 CLA",
+  "copyright": "Metro14",
+  "size": {
+    "x": 64,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "running",
+      "directions": 4
+    },
+    {
+      "name": "walking",
+      "directions": 4
+    },
+    {
+      "name": "dead"
+    },
+    {
+      "name": "sleeping"
+    },
+    {
+      "name": "crit"
+    }
+  ]
+}
