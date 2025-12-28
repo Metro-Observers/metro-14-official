@@ -1,0 +1,18 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: M14ClothingNeckCloakHydra
+  name: плащ лидера Гидры
+  description: Только при одном виде этого плаща, вы наполняетесь страхом.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Clothing/Neck/Cloaks/hydra.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: M14ClothingNeckCloakSparta
+  name: плащ лидера Спарты
+  description: Этот плащ пропитан кровью операций по спасению человечества.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Clothing/Neck/Cloaks/sparta.rsi
+ 

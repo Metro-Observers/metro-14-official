@@ -1,7 +1,7 @@
 - type: gameMap
   id: Metro14
   mapName: 'Metro'
-  mapPath: /Maps/_Metro14/Metro/MetroV31.yml
+  mapPath: /Maps/_Metro14/Metro/MetroV37.yml
   minPlayers: 0
   maxPlayers: 200
   stations:
@@ -38,6 +38,3 @@
           M14HeadOfVDNH: [ 1, 1 ]
           M14SecurityVDNH: [ 6, 6 ]
           M14StalkerVDNH: [ -1, -1 ]
-          
-          
-          

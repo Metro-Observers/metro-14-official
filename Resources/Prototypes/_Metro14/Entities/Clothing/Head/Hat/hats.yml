@@ -1,0 +1,60 @@
+- type: entity
+  parent: [ClothingHeadBase, BaseFoldable]
+  id: M14ClothingHeadHatUshankaBrown
+  name: шапка-ушанка
+  description: "Тёплая меховая шапка - самый популярный головной убор среди мужчин и женщин, стариков и детей."
+  components:
+  - type: Clothing
+    sprite: _Metro14/Clothing/Head/Hats/ushanka_brown.rsi
+  - type: Appearance
+  - type: AddAccentClothing
+    accent: RussianAccent
+  - type: Foldable
+    canFoldInsideContainer: true
+  - type: FoldableClothing
+    foldedEquippedPrefix: up
+    foldedHeldPrefix: up
+  - type: Sprite
+    sprite: _Metro14/Clothing/Head/Hats/ushanka_brown.rsi
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+    - state: icon-up
+      map: ["foldedLayer"]
+      visible: false
+
+- type: entity
+  parent: [ClothingHeadBase, BaseFoldable]
+  id: M14ClothingHeadHatUshankaBlack
+  name: шапка-ушанка
+  description: "Тёплая меховая шапка - самый популярный головной убор среди мужчин и женщин, стариков и детей."
+  components:
+  - type: Clothing
+    sprite: _Metro14/Clothing/Head/Hats/ushanka_black.rsi
+  - type: Appearance
+  - type: AddAccentClothing
+    accent: RussianAccent
+  - type: Foldable
+    canFoldInsideContainer: true
+  - type: FoldableClothing
+    foldedEquippedPrefix: up
+    foldedHeldPrefix: up
+  - type: Sprite
+    sprite: _Metro14/Clothing/Head/Hats/ushanka_black.rsi
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+    - state: icon-up
+      map: ["foldedLayer"]
+      visible: false
+
+- type: entity
+  parent: ClothingHeadBase
+  id: M14ClothingHeadHatBeaverHat
+  name: офицерская фуражка
+  description: 'помятая, слегка в грязи, но даже в таком виде она внушает страх!'
+  components:
+  - type: Sprite
+    sprite: _Metro14/Clothing/Head/Hats/officer_cap.rsi
+  - type: Clothing
+    sprite: _Metro14/Clothing/Head/Hats/officer_cap.rsi
