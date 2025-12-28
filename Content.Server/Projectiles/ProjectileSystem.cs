@@ -10,6 +10,7 @@ using Content.Shared.FixedPoint;
 using Content.Shared.Projectiles;
 using Robust.Shared.Physics.Events;
 using Robust.Shared.Player;
+using Content.Shared.Weapons.Ranged.Components; //METRO14
 
 namespace Content.Server.Projectiles;
 
@@ -45,8 +46,24 @@ public sealed class ProjectileSystem : SharedProjectileSystem
             return;
         }
 
+        //METRO14-start
         var ev = new ProjectileHitEvent(component.Damage * _damageableSystem.UniversalProjectileDamageModifier, target, component.Shooter);
-        RaiseLocalEvent(uid, ref ev);
+
+        if (component.Weapon != null && TryComp<GunComponent>(component.Weapon.Value, out var gunComp))
+        {
+            ev = new ProjectileHitEvent((component.Damage * _damageableSystem.UniversalProjectileDamageModifier) * gunComp.DamageMultiplierModified, target, component.Shooter);
+            RaiseLocalEvent(uid, ref ev);
+        }
+        else
+        {
+            RaiseLocalEvent(uid, ref ev);
+        }
+
+        /// вместо оригинальных изменений было
+        /// var ev = new ProjectileHitEvent(component.Damage * _damageableSystem.UniversalProjectileDamageModifier, target, component.Shooter);
+        /// RaiseLocalEvent(uid, ref ev);
+
+        //METRO14-end
 
         var otherName = ToPrettyString(target);
         var damageRequired = _destructibleSystem.DestroyedAt(target);

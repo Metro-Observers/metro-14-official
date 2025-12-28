@@ -1,21 +1,4 @@
 - type: entity
-  parent: DrinkGlass
-  id: DrinkAlexanderGlass
-  suffix: alexander
-  components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 30
-        reagents:
-        - ReagentId: Alexander
-          Quantity: 30
-  #- type: Drink
-  - type: Icon
-    sprite: _Metro14/Objects/Consumable/Drinks/alexander.rsi
-    state: icon
-
-- type: entity
   parent: [DrinkBaseMaterialGlass, DrinkBaseCup]
   id: DrinkKvassGlass
   suffix: kvass

@@ -12,6 +12,16 @@ namespace Content.Shared.Weapons.Ranged.Components;
 [Access(typeof(SharedGunSystem))]
 public sealed partial class GunComponent : Component
 {
+    //METRO14-start
+
+    /// <summary>  
+    /// Модификатор урона для всех снарядов этого оружия.
+    /// </summary>  
+    [DataField, AutoNetworkedField]
+    public float DamageMultiplierModified = 1f;
+
+    //METRO14-end
+
     #region Sound
 
     /// <summary>
