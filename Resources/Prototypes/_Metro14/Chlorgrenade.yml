@@ -1,0 +1,87 @@
+- type: entity
+  parent: SmokeGrenade
+  id: ChlorineBalloonStalker
+  name: баллон с хлором
+  description: Запрещённое химическое оружие после 29 апреля 1997 года, но в ЧЗО нашли в лабораториях баллоны с хлором. Игнорируя запрет, используют в масштабных боях, довольно сильное и опасное оружие, которое может распространиться на большую область. В таком случае лучше запастись кислородным баллоном с противогазом.
+  suffix: Stalker, Events
+  components:
+  - type: Sprite
+    sprite: _Metro14/Objects/Weapons/Grenade/Chlorgrenade
+  - type: SmokeOnTrigger
+    duration: 90
+    spreadAmount: 8000
+    solution:
+      reagents:
+      - ReagentId: ChlorineStalker
+        Quantity: 100
+  - type: Item
+    size: Ginormous
+  - type: DeleteOnTrigger
+  - type: TimerTriggerVisuals
+    primingSound:
+      path: /Audio/Effects/Smoke-grenade.ogg
+
+
+- type: reagent
+  id: ChlorineStalker
+  name: reagent-name-chlorstalker
+  group: Elements
+  desc: reagent-desc-clorka
+  physicalDesc: reagent-physical-desc-chlorstalker
+  flavor: bitter
+  color: "#d2ff85"
+  meltingPoint: -101.5
+  boilingPoint: -34.04
+  plantMetabolism:
+    - !type:PlantAdjustWater
+      amount: -0.5
+    - !type:PlantAdjustToxins
+      amount: 15
+    - !type:PlantAdjustWeeds
+      amount: -3
+    - !type:PlantAdjustHealth
+      amount: -1
+  metabolisms:
+    Poison:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Poison: 
+              3
+    Narcotic:
+      effects:
+      - !type:PopupMessage
+        type: Local
+        probability: 0.1
+        messages:
+        - Ваши глаза сильно жгут.
+        - Ваш глаз истекает кровью.
+        - Ваши глаза начинают слезиться.
+        - Вы чувствуете сонливость и страдания глаз.
+        - У вас кружится голова.
+        - Ваши лёгкие якобы перестают дышать.
+        - Вы чувствуете невероятно острую боль в животе!
+      - !type:PopupMessage
+        type: Local
+        visualType: LargeCaution
+        probability: 0.1
+        messages:
+        - Ваши глаза словно отсоединяются!
+        - Ваши глаза перестают работать!
+        - Вы чувствуете, как ваше зрение ухудшается.
+        - Ваши веки быстро дёргаются.
+        conditions:
+      - !type:Emote
+        emote: Crying
+        probability: 0.1
+      - !type:Emote
+        emote: Scream
+        probability: 0.2
+      - !type:GenericStatusEffect
+        key: TemporaryBlindness
+        component: TemporaryBlindness
+      - !type:Vomit
+        conditions:
+        minScale: 1
+        probability: 0.1

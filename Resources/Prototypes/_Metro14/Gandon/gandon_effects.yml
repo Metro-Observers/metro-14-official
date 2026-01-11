@@ -1,0 +1,12 @@
+﻿- type: entity
+  parent: MobStatusEffectDebuff
+  id: StatusEffectGandonHallucinations
+  name: gandon hallucinations
+  components:
+  - type: GandonHallucinationsStatusEffect
+  - type: StunnedStatusEffect
+  - type: KnockdownStatusEffect
+
+- type: statusEffect
+  id: StatusEffectGandonHallucinations
+  alwaysAllowed: true

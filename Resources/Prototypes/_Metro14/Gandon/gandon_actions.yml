@@ -1,0 +1,68 @@
+﻿- type: entity
+  parent: BaseAction
+  id: ActionGandonEuthanasia
+  name: Усыпление
+  description: Усыпляет окружающих людей рядом с вами
+  components:
+  - type: Action
+    useDelay: 20
+    sound: !type:SoundPathSpecifier
+      path: /Audio/Magic/blink.ogg
+    icon:
+      sprite: _Metro14/Objects/Abilitiy/Blackhumanoids.rsi
+      state: BUBUBABA
+  - type: TargetAction
+    range: 5 # Радиус, в котором можно произвести лоботомию.
+  - type: WorldTargetAction
+    event: !type:GandonEuthanasiaEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionGandonStandoff
+  name: Отталкнуть
+  description: Окружающие люди сами в панике отпрыгивают от вас
+  components:
+  - type: Action
+    useDelay: 15
+    sound: !type:SoundPathSpecifier
+      path: /Audio/Magic/staff_animation.ogg
+    icon:
+      sprite: _Metro14/Objects/Abilitiy/Blackhumanoids.rsi
+      state: Clon
+  - type: InstantAction
+    event: !type:ActionGandonStandoff
+
+- type: entity
+  parent: BaseAction
+  id: ActionGandonStealth
+  name: Уйти в неизвестность
+  description: Вы прячете свое присутствие от всех окружающих
+  components:
+  - type: Action
+    useDelay: 5
+    sound: !type:SoundPathSpecifier
+      path: /Audio/Effects/alert.ogg
+    icon:
+      sprite: _Metro14/Objects/Abilitiy/Blackhumanoids.rsi
+      state: Dream
+    iconOn:
+      sprite: _Metro14/Objects/Abilitiy/Blackhumanoids.rsi
+      state: Dream
+  - type: InstantAction
+    event: !type:ActionGandonStealth
+
+- type: entity
+  parent: BaseAction
+  id: ActionGandonHallucinations
+  name: Изменение разума
+  description: Вы запутываете нейроны ближайших людей из-за чего они видят странные фигуры
+  components:
+  - type: Action
+    useDelay: 10
+    sound: !type:SoundPathSpecifier
+      path: /Audio/Magic/staff_animation.ogg
+    icon:
+      sprite: _Metro14/Objects/Abilitiy/Blackhumanoids.rsi
+      state: Psi_Attack
+  - type: InstantAction
+    event: !type:ActionGandonHallucinations

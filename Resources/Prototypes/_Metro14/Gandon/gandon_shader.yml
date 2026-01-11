@@ -1,0 +1,4 @@
+﻿- type: shader
+  id: GandonHallutinations
+  kind: source
+  path: "/Textures/_Metro14/Negri/gandon_shader.swsl"
