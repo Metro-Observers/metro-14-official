@@ -1,7 +1,7 @@
 - type: gameMap
   id: Metro14
   mapName: 'Metro'
-  mapPath: /Maps/_Metro14/Metro/MetroV52.yml
+  mapPath: /Maps/_Metro14/Metro/MetroV93.yml
   minPlayers: 0
   maxPlayers: 200
   stations:
