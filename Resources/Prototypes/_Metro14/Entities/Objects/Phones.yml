@@ -1,0 +1,108 @@
+- type: entity
+  parent: BaseItem
+  id: M14PhoneForHansa
+  name: телефон ганзы
+  description: важный телефон для связи с внешним кольцом ганзы. Это ваш единственный путь, что бы передать важную информацию
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/Instruments/otherinstruments.rsi
+    state: red_phone
+  - type: EmitSoundOnLand
+    sound:
+       path: /Audio/Items/ring.ogg
+  - type: Instrument
+    program: 124
+  - type: Item
+    size: Small
+    storedRotation: -90
+
+
+- type: entity
+  parent: BaseItem
+  id: M14PhoneForVDNH
+  name: телефон ВДНХа
+  description: старый, сделан из хлама, работает только на честном слове техника который делал его через хуй полено
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/Instruments/otherinstruments.rsi
+    state: red_phone
+  - type: EmitSoundOnLand
+    sound:
+       path: /Audio/Items/ring.ogg
+  - type: Instrument
+    program: 124
+  - type: Item
+    size: Small
+    storedRotation: -90
+
+- type: entity
+  parent: BaseItem
+  id: M14PhoneForSparta
+  name: телефон спарты
+  description: Важный телефон для связи с  туннелями и полисом. Кто если не мы? Кто если не спарта?!
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/Instruments/otherinstruments.rsi
+    state: red_phone
+  - type: EmitSoundOnLand
+    sound:
+       path: /Audio/Items/ring.ogg
+  - type: Instrument
+    program: 124
+  - type: Item
+    size: Small
+    storedRotation: -90
+
+- type: entity
+  parent: BaseItem
+  id: M14PhoneForHydra
+  name: телефон гидры
+  description: самый важный das Telefone для Фюрера, без него neu указания сами себя не Machen!
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/Instruments/otherinstruments.rsi
+    state: red_phone
+  - type: EmitSoundOnLand
+    sound:
+       path: /Audio/Items/ring.ogg
+  - type: Instrument
+    program: 124
+  - type: Item
+    size: Small
+    storedRotation: -90
+
+- type: entity
+  parent: BaseItem
+  id: M14PhoneForTech
+  name: телефон техников
+  description: только мой друг дядя Вася знает как он ещё не взорвался
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/Instruments/otherinstruments.rsi
+    state: red_phone
+  - type: EmitSoundOnLand
+    sound:
+       path: /Audio/Items/ring.ogg
+  - type: Instrument
+    program: 124
+  - type: Item
+    size: Small
+    storedRotation: -90
+
+- type: entity
+  parent: BaseItem
+  id: M14PhoneForRedLine
+  name: телефон красной линии
+  description: товарищь, слышно? Да да, расстрелять!
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/Instruments/otherinstruments.rsi
+    state: red_phone
+  - type: EmitSoundOnLand
+    sound:
+       path: /Audio/Items/ring.ogg
+  - type: Instrument
+    program: 124
+  - type: Item
+    size: Small
+    storedRotation: -90
