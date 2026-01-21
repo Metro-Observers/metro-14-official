@@ -1,7 +1,7 @@
 - type: job
   id: M14TradeAgentHansa
-  name: Торговый агент ганзы
-  description: Вы обязаны следить за всем что идет через границу станции
+  name: job-name-trade-agent-hansa
+  description: job-description-trade-agent-hansa
   playTimeTracker: M14TradeAgentHansa
   startingGear: M14TradeAgentHansaGear
   supervisors: job-supervisors-torg

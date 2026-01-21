@@ -1,7 +1,7 @@
 - type: job
   id: M14HeadOfHansa
-  name: Начальник станции
-  description: Вы главный в ганзе
+  name: job-name-head-of-hansa
+  description: job-description-head-of-hansa
   playTimeTracker: M14HeadOfHansa
   startingGear: M14HeadOfHansaGear
   icon: "JobIconHansa"
@@ -22,4 +22,4 @@
   storage:
     back:
     - M14HansaPassport
-    - M14RadioHandheldHansa 
+    - M14RadioHandheldHansa

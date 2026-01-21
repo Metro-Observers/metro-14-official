@@ -1,7 +1,7 @@
 - type: job
   id: M14HeadOfHydra
-  name: Фюрер
-  description: Вы великий вождь.
+  name: job-name-head-of-hydra
+  description: job-description-head-of-hydra
   playTimeTracker: M14HeadOfHydra
   startingGear: M14HeadOfHydraGear
   icon: "JobIconHydra"

@@ -1,7 +1,7 @@
 - type: job
   id: M14Minister
-  name: Председатель Гидры
-  description: Вы второй человек после фюрера. Вы не имеете права идти против воли вождя,вы должны руководить солдатами и следить за деятельностью внутри станции.
+  name: job-name-minister-hydra
+  description: job-description-minister-hydra
   playTimeTracker: M14MinisterHydra
   startingGear: M14MinisterHydraGear
   icon: "JobIconHydra"

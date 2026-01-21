@@ -1,7 +1,7 @@
 - type: job
   id: M14HeadOfSparta
-  name: Полковник Спарты
-  description: Вы лидер спарты. Храните клятву,защищайте метро
+  name: job-name-head-of-sparta
+  description: job-description-head-of-sparta
   playTimeTracker: M14HeadOfSparta
   startingGear: M14HeadOfSpartaGear
   icon: "JobIconSparta"

@@ -1,7 +1,7 @@
 - type: job
   id: M14SoldierHydra
-  name: Солдат Гидры
-  description: Вы великий представитель гидры. Цвет метро.
+  name: job-name-soldier-hydra
+  description: job-description-soldier-hydra
   playTimeTracker: M14SoldierHydra
   startingGear: M14SoldierHydraGear
   supervisors: job-supervisors-gydra

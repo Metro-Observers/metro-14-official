@@ -2,7 +2,7 @@
   id: M14Hydra
   name: department-Hydra
   description: department-Hydra-description
-  color: "#474e4c"
+  color: "#434d4c"
   roles:
   - M14HeadOfHydra
   - M14Minister
@@ -12,7 +12,7 @@
   id: M14RedLine
   name: department-RedLine
   description: department-RedLine-description
-  color: "#ea0000"
+  color: "#d40000"
   roles:
   - M14HeadOfRedLine
   - M14PolitHandRedLine
@@ -22,7 +22,7 @@
   id: M14Hansa
   name: department-Hansa
   description: department-Hansa-description
-  color: "#5e4d35"
+  color: "#5d4c34"
   roles:
   - M14HeadOfHansa
   - M14TradeAgentHansa
@@ -33,7 +33,7 @@
   id: M14Sparta
   name: department-Sparta
   description: department-Sparta-description
-  color: "#000000"
+  color: "#1E90FF"
   roles:
   - M14HeadOfSparta
   - M14LieutenantOfHeadOfSparta
@@ -44,7 +44,7 @@
   id: M14Tech
   name: department-Tech
   description: department-Tech-description
-  color: "#a64a6f"
+  color: "#942954"
   roles:
   - M14HeadOfTech
   - M14SecurityTech
@@ -54,7 +54,7 @@
   id: M14VDNH
   name: department-VDNH
   description: department-VDNH-description
-  color: "#f49628"
+  color: "#f59628"
   roles:
   - M14HeadOfVDNH
   - M14SecurityVDNH

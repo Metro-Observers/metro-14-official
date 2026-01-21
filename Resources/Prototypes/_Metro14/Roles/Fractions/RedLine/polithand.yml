@@ -1,7 +1,7 @@
 - type: job
   id: M14PolitHandRedLine
-  name: Политрук
-  description: Вы обязаны подчиняться генсеку,нести идеологию коммунизма в массы и проводить идеологическую работу с составом станции
+  name: job-name-political-leader-redline
+  description: job-description-political-leader-redline
   playTimeTracker: M14PolitHandRedLine
   startingGear: M14PolitHandRedLineGear
   icon: "JobIconRedline"

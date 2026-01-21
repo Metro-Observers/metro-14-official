@@ -1,7 +1,7 @@
 - type: job
   id: M14SecurityVDNH
-  name: Охранник ВДНХ
-  description: Вы обладаете всей полнотой власти на этой станции.
+  name: job-name-security-vdnh
+  description: job-description-security-vdnh
   playTimeTracker: M14SecurityVDNH
   startingGear: M14SecurityVDNHGear
   icon: "JobIconVDNH"

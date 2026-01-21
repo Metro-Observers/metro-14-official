@@ -1,13 +1,13 @@
 - type: job
   id: M14MedicSparta
-  name: Медик спарты
-  description: Вы медик спарты. Помогайте своим товарищам и окружающим.
+  name: job-name-medic-sparta
+  description: job-description-medic-sparta
   playTimeTracker: M14MedicSparta
   startingGear: M14MedicSpartaGear
   supervisors: job-supervisors-sparta
   icon: "JobIconSparta"
   canBeAntag: true
-  
+
 - type: startingGear
   id: M14MedicSpartaGear
   equipment:

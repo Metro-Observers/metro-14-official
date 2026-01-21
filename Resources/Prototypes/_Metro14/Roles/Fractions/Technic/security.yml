@@ -1,7 +1,7 @@
 - type: job
   id: M14SecurityTech
-  name: Охрана станции
-  description: Защищайте ваших любимых техников от всяких напастей. Может быть они поделятся с вами их разработками.
+  name: job-name-security-tech
+  description: job-description-security-tech
   playTimeTracker: M14SecurityTech
   startingGear: M14SecurityTechGear
   supervisors: job-supervisors-tech

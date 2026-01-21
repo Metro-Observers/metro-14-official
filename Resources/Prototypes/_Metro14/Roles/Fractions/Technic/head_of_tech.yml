@@ -1,7 +1,7 @@
 - type: job
   id: M14HeadOfTech
-  name: Начальник Техников
-  description: Вы обладаете всей полнотой власти на этой станции.
+  name: job-name-head-of-tech
+  description: job-description-head-of-tech
   playTimeTracker: M14HeadOfTech
   startingGear: M14HeadOfTechGear
   icon: "JobIconTech"

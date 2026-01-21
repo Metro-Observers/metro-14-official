@@ -1,7 +1,7 @@
 - type: job
   id: M14TechnicTech
-  name: Техник
-  description: Закупайте ресурсы у сталкеров,собирайте самое ценное на своих станках
+  name: job-name-technic-tech
+  description: job-description-technic-tech
   playTimeTracker: M14TechnicTech
   startingGear: M14TechnicTechGear
   supervisors: job-supervisors-tech

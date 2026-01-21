@@ -1,7 +1,7 @@
 - type: job
   id: M14StalkerVDNH
-  name: Сталкер
-  description: Ищите следы старой цивилизации по техничкам, нанимайтесь, провозите контрабанду, собирайте оружие у техников.
+  name: job-name-stalker-vdnh
+  description: job-description-stalker-vdnh
   playTimeTracker: M14StalkerVDNH
   startingGear: M14StalkerVDNHGear
   icon: "JobIconVDNH"

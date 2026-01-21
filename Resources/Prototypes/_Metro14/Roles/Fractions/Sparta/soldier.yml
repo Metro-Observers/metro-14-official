@@ -1,7 +1,7 @@
 - type: job
   id: M14SoldierSparta
-  name: Солдат спарты
-  description: Храните клятву,защищайте метро
+  name: job-name-soldier-sparta
+  description: job-description-soldier-sparta
   playTimeTracker: M14SoldierSparta
   startingGear: M14SoldierSpartaGear
   icon: "JobIconSparta"

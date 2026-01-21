@@ -1,7 +1,7 @@
 - type: job
   id: M14LieutenantOfHeadOfSparta
-  name: Подполковник Спарты
-  description: Вы заменяете лидера спарты. Храните клятву,защищайте метро
+  name: job-name-lieutenant-sparta
+  description: job-description-lieutenant-sparta
   playTimeTracker: M14LieutenantOfHeadOfSparta
   startingGear: M14LieutenantOfHeadOfSpartaGear
   supervisors: job-supervisors-podpolkovnik
