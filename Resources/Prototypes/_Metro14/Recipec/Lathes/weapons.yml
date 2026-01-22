@@ -3,37 +3,37 @@
   result: M14WeaponRifleAk74
   completetime: 30
   materials:
-    M14Steel: 1500
-    M14Wood: 500
+    Steel: 1500
+    Wood: 500
 
 - type: latheRecipe
   id: M14WeaponShotgunAshot
   result: M14WeaponShotgunAshot
   completetime: 10
   materials:
-    M14Steel: 350
-    M14Wood: 100
+    Steel: 350
+    Wood: 100
 
 - type: latheRecipe
   id: M14WeaponShotgunDuplet
   result: M14WeaponShotgunDuplet
   completetime: 20
   materials:
-    M14Steel: 1000
-    M14Wood: 250
+    Steel: 1000
+    Wood: 250
 
 - type: latheRecipe
   id: M14WeaponSniperMosin
   result: M14WeaponSniperMosin
   completetime: 15
   materials:
-    M14Steel: 1250
-    M14Wood: 1000
+    Steel: 1250
+    Wood: 1000
 
 - type: latheRecipe
   id: M14Weaponak12
   result: M14Weaponak12
   completetime: 60
   materials:
-    M14Steel: 1850
-    M14Plasteel: 800
+    Steel: 1850
+    Plasteel: 800

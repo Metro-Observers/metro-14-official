@@ -3,7 +3,7 @@
   result: MagazineBoxLightRifle
   completetime: 3
   materials:
-    M14Steel: 600
+    Steel: 600
     M14Gunpowder: 600
 
 - type: latheRecipe
@@ -11,7 +11,7 @@
   result: BoxLethalshot
   completetime: 3
   materials:
-    M14Steel: 400
+    Steel: 400
     M14Gunpowder: 400
 
 - type: latheRecipe
@@ -19,7 +19,7 @@
   result: ShellShotgun
   completetime: 0.1
   materials:
-    M14Steel: 1
+    Steel: 1
     M14Gunpowder: 1
 
 - type: latheRecipe
@@ -27,7 +27,7 @@
   result: CartridgeLightRifle
   completetime: 0.1
   materials:
-    M14Steel: 15
+    Steel: 15
     M14Gunpowder: 1
 
 - type: latheRecipe
@@ -35,7 +35,7 @@
   result: BoxShotgunSlug
   completetime: 3
   materials:
-    M14Steel: 400
+    Steel: 400
     M14Gunpowder: 400
 
 - type: latheRecipe
@@ -43,5 +43,5 @@
   result: ShellShotgunSlug
   completetime: 0.1
   materials:
-    M14Steel: 1
+    Steel: 1
     M14Gunpowder: 1

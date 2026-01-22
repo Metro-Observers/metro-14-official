@@ -3,11 +3,11 @@
   result: MagazineLightRifle
   completetime: 3
   materials:
-    M14Steel: 1900
+    Steel: 1900
 
 - type: latheRecipe
   id: M14MagazineLightRifleExtended
   result: M14MagazineLightRifleExtended
   completetime: 4
   materials:
-    M14Steel: 2200
+    Steel: 2200
