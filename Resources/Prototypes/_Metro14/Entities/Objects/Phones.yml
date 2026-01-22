@@ -1,6 +1,6 @@
 - type: entity
   parent: BaseItem
-  id: M14PhoneForHansa
+  id: M14PhoneForHansa 
   name: телефон ганзы
   description: важный телефон для связи с внешним кольцом ганзы. Это ваш единственный путь, что бы передать важную информацию
   components:
