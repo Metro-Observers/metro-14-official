@@ -2,6 +2,7 @@
   id: M14CivilianHansa
   name: job-name-civilian-hansa
   description: job-description-civilian-hansa
+  playTimeTracker: M14CivilianHansa
   startingGear: M14CivilianHansaGear
   supervisors: job-supervisors-ganza
   icon: "JobIconHansa"
