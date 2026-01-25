@@ -63,14 +63,14 @@ public sealed partial class SpecialAbilitiesComponent : Component
     /// Все сущности в этом радиусе будут усыплены
     /// </summary>
     [DataField]
-    public float SleepRadius = 5f;
+    public float SleepRadius = 2f;
 
     /// <summary>
     /// Длительность эффекта сна
     /// Сущности будут спать указанное время
     /// </summary>
     [DataField]
-    public TimeSpan SleepDuration = TimeSpan.FromSeconds(10);
+    public TimeSpan SleepDuration = TimeSpan.FromSeconds(3);
 
 
     /// <summary>
@@ -78,7 +78,7 @@ public sealed partial class SpecialAbilitiesComponent : Component
     /// Все сущности в этом радиусе будут отброшены
     /// </summary>
     [DataField]
-    public float KnockbackRadius = 5f;
+    public float KnockbackRadius = 6f;
 
     /// <summary>
     /// Сила отбрасывания

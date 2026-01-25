@@ -19,11 +19,11 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      200: Critical
-      300: Dead
+      230: Critical
+      260: Dead
   - type: MovementSpeedModifier
-    baseWalkSpeed : 2.5
-    baseSprintSpeed : 7
+    baseWalkSpeed : 3
+    baseSprintSpeed : 3.5
   - type: DamageStateVisuals
     states:
       Alive:
@@ -39,7 +39,9 @@
     allowMovement: false
     name: Мутант чёрный
     description: Чёрные - это разумные, человекоподобные мутанты с чёрной блестящей кожей и крупными глазами, обладающие телепатическими способностями, которых люди считают врагами
-    rules: Только для спонсоров
+    rules: Только для спонсоров. Вы свободный антагонист. Вам запрещено тотально убивать целую фракцию, только если на вас не напала вся фракция. Вы можете как объявить войну людям, так и наоборот, поддержать определенную группу или всё человечество целиком.
+    raffle:
+      settings: default
   - type: CombatMode
   - type: MeleeWeapon
     soundHit:
@@ -55,3 +57,12 @@
   - type: Body
     prototype: Human
   - type: SpecialAbilities
+  - type: PassiveDamage  
+    allowedStates:  
+    - Alive
+    damageCap: 300
+    damage:  
+      types:  
+        Blunt: -0.2
+        Slash: -0.1  
+        Piercing: -0.2
