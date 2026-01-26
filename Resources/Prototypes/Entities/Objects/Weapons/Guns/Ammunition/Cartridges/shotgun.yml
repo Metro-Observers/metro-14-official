@@ -43,6 +43,10 @@
   name: shell (.50 slug)
   description: The standard cartridge used by most modern shotguns. Slug ammunition contains a single high-density projectile effective at longer ranges than pellet ammunition.
   components:
+  - type: Tag # Metro14
+    tags: # Metro14
+    - ShellShotgun # Metro14
+    - ShellShotgunSlug # Metro14
   - type: Sprite
     layers:
       - state: slug
