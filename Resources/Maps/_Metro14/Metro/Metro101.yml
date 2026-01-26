@@ -412461,20 +412461,6 @@ entities:
     - type: Transform
       pos: 9.402483,546.6216
       parent: 2
-- proto: TorsoHuman
-  entities:
-  - uid: 62406
-    components:
-    - type: Transform
-      pos: 711.5105,-43.85663
-      parent: 2
-- proto: TorsoSkeleton
-  entities:
-  - uid: 62407
-    components:
-    - type: Transform
-      pos: -11.028229,192.36209
-      parent: 2
 - proto: Tourniquet
   entities:
   - uid: 62408
