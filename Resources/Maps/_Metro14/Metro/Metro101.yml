@@ -374820,38 +374820,6 @@ entities:
     - type: Transform
       pos: -5.5,-294.5
       parent: 2
-- proto: MakeshiftShield
-  entities:
-  - uid: 73
-    components:
-    - type: Transform
-      parent: 72
-    - type: Physics
-      canCollide: False
-    - type: Blocking
-      blockingToggleActionEntity: 74
-    - type: ActionsContainer
-    - type: ContainerContainer
-      containers:
-        actions: !type:Container
-          ents:
-          - 74
-    - type: InsideEntityStorage
-  - uid: 56624
-    components:
-    - type: Transform
-      pos: 735.50433,-8.568123
-      parent: 2
-  - uid: 56625
-    components:
-    - type: Transform
-      pos: 735.50433,-8.568123
-      parent: 2
-  - uid: 56626
-    components:
-    - type: Transform
-      pos: 735.50433,-8.568123
-      parent: 2
 - proto: Matchbox
   entities:
   - uid: 56632
