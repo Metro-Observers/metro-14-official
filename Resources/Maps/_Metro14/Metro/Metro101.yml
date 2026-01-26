@@ -166248,20 +166248,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -11.343506,193.03613
       parent: 2
-- proto: LeftFootSkeleton
-  entities:
-  - uid: 17668
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 34.80624,569.9179
-      parent: 2
-  - uid: 17669
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -10.093262,193.69931
-      parent: 2
 - proto: LeftHandSkeleton
   entities:
   - uid: 17670
