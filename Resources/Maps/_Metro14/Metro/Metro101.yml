@@ -166248,28 +166248,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -11.343506,193.03613
       parent: 2
-- proto: LeftHandSkeleton
-  entities:
-  - uid: 17670
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -10.21286,191.57935
-      parent: 2
-- proto: LeftLegSkeleton
-  entities:
-  - uid: 17671
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 34.74374,570.05853
-      parent: 2
-  - uid: 17672
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -11.647919,192.5143
-      parent: 2
 - proto: LightBulb
   entities:
   - uid: 17674
@@ -389537,52 +389515,6 @@ entities:
       name: Закрытие гермозатвора основной
     - type: Transform
       pos: 759.5272,-8.576996
-      parent: 2
-- proto: RightFootHuman
-  entities:
-  - uid: 58752
-    components:
-    - type: Transform
-      pos: 712.76086,-43.716187
-      parent: 2
-- proto: RightFootSkeleton
-  entities:
-  - uid: 58753
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -11.028229,192.10118
-      parent: 2
-- proto: RightHandHuman
-  entities:
-  - uid: 58754
-    components:
-    - type: Transform
-      pos: 711.1035,-44.084244
-      parent: 2
-- proto: RightHandSkeleton
-  entities:
-  - uid: 58755
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -10.941254,192.47081
-      parent: 2
-- proto: RightLegHuman
-  entities:
-  - uid: 58756
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 711.68066,-44.263382
-      parent: 2
-- proto: RightLegSkeleton
-  entities:
-  - uid: 58757
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -10.636856,192.30774
       parent: 2
 - proto: RitualDagger
   entities:
