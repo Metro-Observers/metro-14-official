@@ -6,6 +6,7 @@
   physicalDesc: reagent-physical-desc-translucent
   flavor: bitter
   color: "#FAFAFA"
+  worksOnTheDead: true
   boilingPoint: 212.0  # Dexosyephedrine vape when?
   meltingPoint: 170.0
   metabolisms:
@@ -14,15 +15,16 @@
       - !type:HealthChange
         damage:
           groups:
-            Burn: -5
-            Brute: -5
+            Burn: -0.09
+            Brute: -2
             Toxin: -2
-            Airloss: -3
+            Airloss: -2
     Narcotic:
       effects:
       - !type:MovementSpeedModifier
         walkSpeedModifier: 1.5
         sprintSpeedModifier: 1.5
+        time: 4.5
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
