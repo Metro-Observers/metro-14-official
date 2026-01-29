@@ -24,15 +24,23 @@
 
 - type: entity
   name: Ашот
-  parent: BaseWeaponShotgun
+  parent: WeaponFlareGun
   id: M14WeaponShotgunAshot
   description: Говно и трубы, описывает своим существованием всё метро.
-  components: # needs to be super inaccurate because you don't need to wield it
+  components:
   - type: Sprite
     sprite: _Metro14/Objects/Weapons/Guns/Shotguns/ashot_pistol.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
   - type: Clothing
     sprite: _Metro14/Objects/Weapons/Guns/Shotguns/ashot_pistol.rsi
+    quickEquip: false
+    slots:
+    - Belt
+    - suitStorage
   - type: Item
+    sprite: _Metro14/Objects/Weapons/Guns/Shotguns/ashot_pistol.rsi
     size: Small
     shape:
     - 0,0,2,0
@@ -43,13 +51,16 @@
       path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
   - type: GunSpreadModifier
     spread: 0.1
-  - type: BallisticAmmoProvider
-    capacity: 1
-    whitelist:
-      tags:
-      - ShellShotgunSlug
-    proto: ShellShotgunSlug
   - type: Construction
     graph: ShotgunSawn
     node: shotgunsawn
     deconstructionTarget: null
+  - type: ItemSlots
+    slots:
+      gun_chamber:
+        name: Chamber
+        startingItem: ShellShotgunSlug
+        priority: 1
+        whitelist:
+          tags:
+            - ShellShotgunSlug
