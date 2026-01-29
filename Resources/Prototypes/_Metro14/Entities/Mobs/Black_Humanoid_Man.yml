@@ -23,7 +23,7 @@
       300: Dead
   - type: MovementSpeedModifier
     baseWalkSpeed : 2.5
-    baseSprintSpeed : 3.5
+    baseSprintSpeed : 7
   - type: DamageStateVisuals
     states:
       Alive:
@@ -54,12 +54,3 @@
       collection: FootstepThud
   - type: Body
   - type: SpecialAbilities
-  - type: PassiveDamage # Around 8 damage a minute healed
-    allowedStates:
-    - Alive
-    damageCap: 300
-    damage:
-      types:
-        Heat: -0.22
-      groups:
-        Brute: -1

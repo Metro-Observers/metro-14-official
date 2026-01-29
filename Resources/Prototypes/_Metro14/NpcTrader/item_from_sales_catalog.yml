@@ -170,9 +170,9 @@
   name: Военный стимулятор
   description: ООО,это мощная штука,но и цена соответствующая 
   givingItems:
-    CartridgeLightRifle: 35
+    CartridgeLightRifle: 30
   takingItems:
-    M14VoenStimulator: 1
+    voenstimulator: 1
 
 - type: npcTraderItemForCatalog
   id: NPC_Trader_Machete_to_bullets
