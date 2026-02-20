@@ -44,7 +44,7 @@ limit = 25.0
 max_updates = 300
 
 [whitelist]
-enabled = false
+enabled = true
 prototype_list = "basicWhitelist"
 
 [vote]
@@ -62,4 +62,4 @@ maximum_width = 26
 see_own_notes = false
 
 [hub]
-advertise = true
+advertise = false
