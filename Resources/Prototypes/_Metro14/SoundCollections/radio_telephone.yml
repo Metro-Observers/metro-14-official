@@ -1,0 +1,8 @@
+- type: soundCollection
+  id: RMCRadioTelephoneGrab
+  files:
+    - /Audio/_Metro14/Machines/Phone/handset_1.ogg
+    - /Audio/_Metro14/Machines/Phone/handset_2.ogg
+    - /Audio/_Metro14/Machines/Phone/handset_3.ogg
+    - /Audio/_Metro14/Machines/Phone/handset_4.ogg
+    - /Audio/_Metro14/Machines/Phone/handset_5.ogg
