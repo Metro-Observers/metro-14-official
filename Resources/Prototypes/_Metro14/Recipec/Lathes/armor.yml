@@ -3,7 +3,7 @@
   result: M14ClothingOuterArmorPlateStalker
   completetime: 4
   materials:
-    Steel: 300
+    Steel: 1000
     Cloth: 500
 
 - type: latheRecipe
@@ -11,15 +11,15 @@
   result: ClothingHeadHatHardhatWhite
   completetime: 2
   materials:
-    Glass: 300
-    Plastic: 900
+    Glass: 100
+    Plastic: 500
 
 - type: latheRecipe
   id: Floodlight
   result: Floodlight
   completetime: 15
   materials:
-    Glass: 900
+    Glass: 1000
     Steel: 1200
 
 - type: latheRecipe
@@ -27,54 +27,63 @@
   result: M14ClothingOuterArmorPlateHeavy
   completetime: 1
   materials:
-    Plastic: 900
-    Steel: 1900
-    Cloth: 500
+    Plastic: 1000
+    Steel: 5000
+    Cloth: 1500
+    Plasteel: 1500
 
 - type: latheRecipe
   id: M14ClothingOuterArmor6b2Recipe
   result: M14ClothingOuterArmor6b2
   completetime: 3 
   materials:
-    Plastic: 500
-    Steel: 3200
+    Steel: 2000
+    Cloth: 1000
 
 - type: latheRecipe
   id: M14ClothingOuterArmorIOTVGreenRecipe
   result: M14ClothingOuterArmorIOTVGreen
   completetime: 2
   materials:
-    Plastic: 300
-    Steel: 4800
+    Plastic: 500
+    Steel: 3000
+    Cloth: 1000
 
 - type: latheRecipe
   id: M14ClothingOuterArmorIOTVBlackRecipe 
   result: M14ClothingOuterArmorIOTVBlack
   completetime: 3
   materials:
-    Plastic: 400
-    Steel: 4800
+    Plastic: 500
+    Steel: 3000
+    Cloth: 1000
 
 - type: latheRecipe
   id: M14ClothingOuterArmorPlateCarrierGreenRecipe
   result: M14ClothingOuterArmorPlateCarrierGreen
   completetime: 2
   materials:
-    Plastic: 600
-    Steel: 4800
+    Plastic: 1500
+    Steel: 3000
+    Plasteel: 1500
+    Cloth: 1500
 
 - type: latheRecipe
   id: M14ClothingOuterArmorPlateCarrierGrayRecipe
   result: M14ClothingOuterArmorPlateCarrierGray
   completetime: 2
   materials:
-    Plastic: 500
-    Steel: 4800
+    Plastic: 1500
+    Steel: 3000
+    Plasteel: 1500
+    Cloth: 1500
 
 - type: latheRecipe
   id: M14ClothingOuterArmorPlateCarrierBlueRecipe
   result: M14ClothingOuterArmorPlateCarrierBlue
-  completetime: 3
+  completetime: 2
   materials:
-    Plastic: 600
-    Steel: 4800
+    Plastic: 1500
+    Steel: 3000
+    Plasteel: 1500
+    Cloth: 1500

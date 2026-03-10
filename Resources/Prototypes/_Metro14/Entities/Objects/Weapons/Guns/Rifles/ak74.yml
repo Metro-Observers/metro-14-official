@@ -51,3 +51,56 @@
     - 9,9,9,9
     sprite: _Metro14/Objects/Weapons/Guns/Rifles/ak-inhandsx64-1.rsi
   - type: GunRequiresWield
+
+- type: entity
+  name: Ак74
+  parent: BaseWeaponRifle
+  id: M14WeaponRifleAk74Empty
+  suffix: Пустой
+  description: Ужасающее творение предков что согнали нас всех в тоннели.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Objects/Weapons/Guns/Rifles/ak74-1.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Gun
+    soundGunshot:
+      path: /Audio/_Metro14/Weapons/Guns/Gunshots/ak74.ogg
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineLightRifle
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeLightRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: false
+  - type: Appearance
+  - type: Item
+    size: Huge
+    shape:
+    - 9,9,9,9
+    sprite: _Metro14/Objects/Weapons/Guns/Rifles/ak-inhandsx64-1.rsi
+  - type: GunRequiresWield

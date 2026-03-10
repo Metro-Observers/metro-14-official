@@ -1,7 +1,9 @@
 - type: entity
   id: M14WallRock
   parent: M14BaseWall
-  name: скала
+  name: хлипкая скала
+  description: Можно попробовать разгребсти.
+  suffix: Разрушаемая
   components:
   - type: Transform
     noRot: true

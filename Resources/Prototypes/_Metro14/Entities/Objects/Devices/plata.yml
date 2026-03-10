@@ -1,0 +1,14 @@
+- type: entity
+  id: M14AutolatheMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: неизвестная машинная плата
+  description: Странная плата с стёртой маркировкой. На ней чудом можно разобрать инструкцию по сборке. Скорее всего будет представлять большой интерес для Кузнечного моста.
+  components:
+    - type: MachineBoard
+      prototype: Autolathe
+      stackRequirements:
+        Manipulator: 5
+        Glass: 20
+        Steel: 30
+        Plasteel: 10
+        Plastic: 15

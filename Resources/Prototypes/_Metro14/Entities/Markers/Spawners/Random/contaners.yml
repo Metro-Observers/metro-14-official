@@ -60,6 +60,7 @@
       weight: 22
       children: 
        - id: MaterialCloth10
+       - id: M14MaterialGunpowder
     - !type:AllSelector
       weight: 32
       children: 
