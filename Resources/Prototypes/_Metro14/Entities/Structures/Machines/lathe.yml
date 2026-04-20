@@ -73,7 +73,7 @@
 - type: entity
   parent: BaseStructure
   id: M14Workbench
-  name: верстак
+  name: Верстак
   description: Вы можете создать что-то, либо лишиться пары пальцев.
   components:
   - type: Sprite
@@ -128,3 +128,52 @@
     - M14Magazines
     - M14Ammunitions
     - M14Armor 
+
+- type: latheRecipe
+  id: M14WeaponRifleAk74
+  result: M14WeaponRifleAk74Empty
+  completetime: 30
+  materials:
+    Steel: 3500
+    Wood: 1000
+
+- type: latheRecipe
+  id: M14WeaponShotgunAshot
+  result: M14WeaponShotgunAshotEmpty
+  completetime: 10
+  materials:
+    Steel: 500
+    Wood: 100
+
+- type: latheRecipe
+  id: M14WeaponShotgunDuplet
+  result: M14WeaponShotgunDupletEmpty
+  completetime: 20
+  materials:
+    Steel: 2000
+    Wood: 500
+
+- type: latheRecipe
+  id: M14WeaponSniperMosin
+  result: M14WeaponSniperMosinEmpty
+  completetime: 15
+  materials:
+    Steel: 1500
+    Wood: 1000
+
+- type: latheRecipe
+  id: M14Weaponak12
+  result: M14Weaponak12Empty
+  completetime: 60
+  materials:
+    Plastic: 1000
+    Steel: 3500
+    Plasteel: 1000
+
+- type: latheRecipe
+  id: M14bastard
+  result: M14bastardEmpty
+  completetime: 5
+  materials:
+    Steel: 2000
+    Wood: 500
