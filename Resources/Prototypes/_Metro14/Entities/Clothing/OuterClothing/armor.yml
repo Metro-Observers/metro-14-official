@@ -275,7 +275,7 @@
   parent: M14ClothingOuterArmorBase
   id: M14ClothingOuterArmorHydra
   name: Самодельный бронежилет гидры
-  description: Бронекостюм для защиты осколков. Сделан рукими РУССКОГО ЧЕЛОВЕКА!
+  description: Бронекостюм для защиты от осколков. Сделан рукими РУССКОГО ЧЕЛОВЕКА!
   components:
   - type: Sprite
     sprite: _Metro14/Clothing/OuterClothing/Armor/nazbronik.rsi

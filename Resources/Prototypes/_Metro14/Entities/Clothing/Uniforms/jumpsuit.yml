@@ -168,7 +168,7 @@
   parent: M14UnsensoredClothingUniformBase
   id: M14ClothingUniformJumpsuitHydra
   name: Униформа солдата гидры
-  description: Чёрная солдата гидры, которую раньше использовали подразделения ОМОН.
+  description: Чёрная униформа солдата гидры, которую раньше использовали подразделения ОМОН.
   components:
   - type: Sprite
     sprite: _Metro14/Clothing/Uniforms/Jumpsuit/Hydra/Narzistuni.rsi

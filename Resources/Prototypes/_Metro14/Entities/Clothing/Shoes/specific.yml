@@ -54,7 +54,7 @@
     sprite: _Metro14/Clothing/Shoes/Specific/schoolwhiteshoes.rsi
 
 - type: entity
-  parent: ClothingShoesBaseButcherable
+  parent: ClothingShoesBootsCombatFilled
   id: M14ClothingShoesBerets
   name: Армейские берцы
   description: Старые, потрепанные армейские берцы. Еще многое смогут показать.
