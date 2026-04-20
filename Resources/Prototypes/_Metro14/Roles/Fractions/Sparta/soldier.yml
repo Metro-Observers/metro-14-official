@@ -12,9 +12,9 @@
   id: M14SoldierSpartaGear
   equipment:
     jumpsuit: M14ClothingUniformJumpsuitSparta
-    mask: ClothingMaskNeckGaiter
+    mask: M14ClothingMaskGasMasc
     id: M14Tablet
-    shoes: ClothingShoesBootsCombatFilled
+    shoes: M14ClothingShoesBerets
     gloves: ClothingHandsGlovesColorBlack
     back: ClothingMilitaryBackpack
   storage:

@@ -201,8 +201,8 @@
   givingItems:
     CartridgeLightRifle: 15
   takingItems:
-    M14ClothingOuterArmorPlateCarrierBlue: 1
-    M14ClothingHeadHelmetSparta1: 1    
+    M14ClothingBeltSpartanWebbing: 1
+    M14ClothingHeadHelmetSparta: 1    
 
 - type: npcTraderItemForCatalog
   id: NPC_Trader_Sparta_middle
@@ -210,7 +210,7 @@
   iconId: M14ClothingOuterArmorHeavySparta
   description: Отличный набор, чтоб пойти на войну.
   givingItems:
-    CartridgeLightRifle: 50
+    CartridgeLightRifle: 30
   takingItems:
     M14ClothingOuterArmorHeavySparta: 1    
     M14ClothingHeadHelmetSparta: 1
@@ -281,8 +281,7 @@
   givingItems:
     CartridgeLightRifle: 15
   takingItems:
-    M14ClothingOuterArmorPlateHidra: 1    
-    ClothingHeadHatGreysoft: 1
+    M14ClothingOuterArmorHydra: 1    
 
 - type: npcTraderItemForCatalog
   id: NPC_Trader_red_Start

@@ -44,14 +44,14 @@
 #Sparta Helmet
 - type: entity
   parent: M14ClothingHeadHelmetHeavy
-  id: M14ClothingHeadHelmetSparta1
-  name: шлем с забралом
+  id: M14ClothingHeadHelmetSparta
+  name: Шлем спарты с забралом
   description: Шлем бойца спарты, разработанный специально для выполнения операций.
   components:
   - type: Sprite
-    sprite: _Metro14/Clothing/Head/Helmets/sparta_helmet.rsi
+    sprite: _Metro14/Clothing/Head/Helmets/SpartanBallisticHelmet.rsi
   - type: Clothing
-    sprite: _Metro14/Clothing/Head/Helmets/sparta_helmet.rsi
+    sprite: _Metro14/Clothing/Head/Helmets/SpartanBallisticHelmet.rsi
   - type: Armor
     modifiers:
       coefficients:

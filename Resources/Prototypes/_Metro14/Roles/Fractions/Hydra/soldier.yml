@@ -11,8 +11,9 @@
 - type: startingGear
   id: M14SoldierHydraGear
   equipment:
-    mask: ClothingMaskNeckGaiter
-    jumpsuit: M14ClothingUniformJumpsuitHydra
+    head: M14ClothingHeadHatBeretGidra
+    mask: M14ClothingMaskGidr
+    jumpsuit: M14ClothingUniformJumpsuitHydraNev
     id: M14Tablet
     shoes: ClothingShoesBootsCombatFilled
     gloves: ClothingHandsGlovesColorBlack

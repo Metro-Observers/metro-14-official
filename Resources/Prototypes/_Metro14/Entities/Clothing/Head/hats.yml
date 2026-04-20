@@ -111,3 +111,17 @@
   - type: Tag
     tags:
     - Recyclable
+
+- type: entity
+  parent: ClothingHeadBase
+  id: M14ClothingHeadHatBeretGidra
+  name: Пилотка гидры
+  description: Синяя пилотка с металлической какардой. В таких ходят только РУССКИЕ!
+  components:
+  - type: Sprite
+    sprite: _Metro14/Clothing/Head/Hats/narzpilotcap.rsi
+  - type: Clothing
+    sprite: _Metro14/Clothing/Head/Hats/narzpilotcap.rsi
+  - type: Tag
+    tags:
+    - Recyclable

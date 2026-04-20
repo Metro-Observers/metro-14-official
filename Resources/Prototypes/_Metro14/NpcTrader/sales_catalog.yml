@@ -33,7 +33,6 @@
   catalog: # предложения данного каталога
     NPC_Trader_Sparta_Start: -1
     NPC_Trader_Sparta_middle: 10
-    NPC_Trader_Sparta_high: 3
     NPC_Trader_Sparta_tail: -1
     NPC_Trader_Sparta_Foot: -1
 

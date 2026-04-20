@@ -12,13 +12,13 @@
   id: M14MedicSpartaGear
   equipment:
     head: ClothingHeadHatBeretSeniorPhysician
-    mask: ClothingMaskBreathMedicalSecurity
+    mask: M14ClothingMaskGasMasc
     jumpsuit: M14ClothingUniformJumpsuitSparta
     id: M14Tablet
-    shoes: ClothingShoesBootsWork
+    shoes: M14ClothingShoesBerets
     gloves: ClothingHandsGlovesLatex
     back: ClothingMilitaryBackpack
-    belt: ClothingBeltMilitaryWebbingMedFilled
+    belt: M14ClothingBeltSpartanWebbingFilled
   storage:
     back:
     - M14RadioHandheldSparta
