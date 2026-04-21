@@ -45,7 +45,7 @@
 - type: entity
   parent: M14ClothingHeadHelmetHeavy
   id: M14ClothingHeadHelmetSparta
-  name: Шлем спарты с забралом
+  name: Шлем спарты
   description: Шлем бойца спарты, разработанный специально для выполнения операций.
   components:
   - type: Sprite
