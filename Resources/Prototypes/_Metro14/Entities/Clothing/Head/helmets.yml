@@ -45,7 +45,7 @@
 - type: entity
   parent: M14ClothingHeadHelmetHeavy
   id: M14ClothingHeadHelmetSparta
-  name: Шлем спарты
+  name: Шлем бойца спарты
   description: Шлем бойца спарты, разработанный специально для выполнения операций.
   components:
   - type: Sprite
@@ -66,7 +66,7 @@
 - type: entity
   parent: M14ClothingHeadHelmetHeavy
   id: M14ClothingHeadHelmetSparta
-  name: шлем от костюма бойца Спарты
+  name: Шлем от костюма бойца Спарты
   description: Шлем бойца спарты, разработанный специально для выполнения спецопераций.
   components:
   - type: Sprite
@@ -80,8 +80,8 @@
 - type: entity
   parent: M14ClothingHeadHelmetHeavy
   id: M14ClothingHeadHelmetHeavyRed
-  name: шлем
-  description: шлем бойцов красной линии.
+  name: Шлем 6Б47
+  description: Старый шлем из на тот момент нового комплекта ратника. Ещё многое может показать.
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/merc_helmet.rsi
@@ -95,7 +95,7 @@
 - type: entity
   parent: ClothingHeadHelmetBase
   id: M14ClothingHeadHelmetRad
-  name: шлем от противорадиационного костюма
+  name: Шлем от противорадиационного костюма
   description: Шлем от противорадиационного комплекта. Вместе с костюмом позволяет находиться в зоне поражённой радиацией.
   components:
   - type: Sprite
@@ -117,7 +117,7 @@
 - type: entity
   parent: ClothingHeadHelmetBase
   id: M14ClothingHeadHelmetCult
-  name: шлем культиста
+  name: Шлем культиста
   description: Тяжёлый шлем культиста, который покрыт странными рунами.
   components:
   - type: Sprite

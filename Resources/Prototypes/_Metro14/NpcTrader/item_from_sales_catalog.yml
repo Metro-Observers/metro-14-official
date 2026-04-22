@@ -277,11 +277,12 @@
   id: NPC_Trader_Hidra_Start
   name: NPC_Trader_Base_Start
   iconId: ClothingHeadHatGreysoft
-  description: Стандартный бронежилет Гидры c кепкой.
+  description: Стандартный бронежилет Гидры c пилоткой.
   givingItems:
     CartridgeLightRifle: 15
   takingItems:
-    M14ClothingOuterArmorHydra: 1    
+    M14ClothingHeadHatBeretGidra: 1
+    M14ClothingOuterArmorHydra: 1
 
 - type: npcTraderItemForCatalog
   id: NPC_Trader_red_Start

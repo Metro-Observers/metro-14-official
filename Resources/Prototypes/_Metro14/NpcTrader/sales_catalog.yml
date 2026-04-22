@@ -29,7 +29,7 @@
     NPC_Trader_Voenstim: -1
 
 - type: npcTraderSalesCatalog # один из возможных каталогов для торговца
-  id: TraderSparta
+  id: TraderSparta # Спарта
   catalog: # предложения данного каталога
     NPC_Trader_Sparta_Start: -1
     NPC_Trader_Sparta_middle: 10
@@ -37,23 +37,23 @@
     NPC_Trader_Sparta_Foot: -1
 
 - type: npcTraderSalesCatalog # один из возможных каталогов для торговца
-  id: TraderHidra
+  id: TraderHidra # Гидра
   catalog: # предложения данного каталога
     NPC_Trader_Hidra_Start: -1
     NPC_Trader_Hidra_middle: 10
     NPC_Trader_Hidra_tail: -1
-    NPC_Trader_Hidra_Foot: -1
 
 - type: npcTraderSalesCatalog # один из возможных каталогов для торговца
-  id: TraderRed
+  id: TraderRed # Красная линия
   catalog: # предложения данного каталога
     NPC_Trader_red_Start: -1
     NPC_Trader_red_middle: 10
     NPC_Trader_Sparta_tail: -1
     NPC_Trader_Sparta_Foot: -1
+    NPC_Trader_Hidra_Foot: -1
 
 - type: npcTraderSalesCatalog # один из возможных каталогов для торговца
-  id: TraderHansa
+  id: TraderHansa # Ганза
   catalog: # предложения данного каталога
     NPC_Trader_Hansa_Start: -1
     NPC_Trader_Sparta_tail: -1
