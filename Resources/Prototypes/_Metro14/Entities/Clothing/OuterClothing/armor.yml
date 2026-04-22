@@ -225,7 +225,7 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
   id: M14ClothingOuterArmorHeavyHydra
-  name: Тронекостюм Четвёртой Гидры
+  name: Бронекостюм Четвёртой Гидры
   description: Бронекостюм для защиты от многих видов повреждений. Немного уступает тяжёлому бронекостюму по защите, но при этом меньше замедляет носителя.
   components:
   - type: Sprite
@@ -263,7 +263,7 @@
 - type: entity
   parent: M14ClothingOuterArmorHeavyHydra
   id: M14ClothingOuterArmorHeavySparta
-  name: бронекостюм Спарты
+  name: Бронекостюм Спарты
   description: Бронекостюм для защиты от многих видов повреждений. Немного уступает тяжёлому бронекостюму по защите, но при этом меньше замедляет носителя.
   components:
   - type: Sprite
@@ -274,7 +274,7 @@
 - type: entity
   parent: M14ClothingOuterArmorHeavyHydra
   id: M14ClothingOuterArmorHeavySpartaReconnaissance
-  name: Разведовательный бронекостюм Спарты
+  name: Разведывательный бронекостюм Спарты
   description: Бронекостюм для защиты от многих видов повреждений. Немного уступает обычному бронекостюму Спарты, но при этом меньше замедляет носителя.
   components:
   - type: Armor
