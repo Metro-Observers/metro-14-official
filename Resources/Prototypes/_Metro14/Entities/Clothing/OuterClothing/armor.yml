@@ -16,8 +16,27 @@
     damageCoefficient: 0.90
 
 - type: entity
-  parent: M14ClothingOuterArmorHydra
+  parent: M14ClothingOuterArmorBase
   id: M14ClothingOuterArmorPlateStalker
+  description: Лёгкий бронежилет I класса, обеспечивающий достаточную защиту от некоторых видов повреждений.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Clothing/OuterClothing/Armor/plateStalker.rsi
+  - type: Clothing
+    sprite: _Metro14/Clothing/OuterClothing/Armor/plateStalker.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.8
+        Heat: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+
+- type: entity
+  parent: M14ClothingOuterArmorHydra
+  id: M14ClothingOuterArmorPlateRedLin
   name: Бронеразгрузки красной линии
   description: Средний бронежилет II класса с разгрузкой и прикреплёнными к ней подсумками. Но, похоже, НИИ красной линии решило отказаться от подсумков в пользу бронезащиты. Теперь ваши подсумки — это красивое дополнение бронеразгрузки.
   components:

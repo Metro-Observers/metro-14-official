@@ -221589,7 +221589,7 @@ entities:
     - type: Transform
       pos: 420.52158,39.600243
       parent: 2
-- proto: M14MaterialCloth
+- proto: MaterialCloth
   entities:
   - uid: 7749
     components:
@@ -221599,7 +221599,7 @@ entities:
       canCollide: False
     - type: InsideEntityStorage
       storage: 7748
-- proto: M14MaterialCloth10
+- proto: MaterialCloth10
   entities:
   - uid: 22703
     components:

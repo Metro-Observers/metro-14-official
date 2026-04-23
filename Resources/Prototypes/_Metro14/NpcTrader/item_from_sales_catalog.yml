@@ -292,8 +292,8 @@
   givingItems:
     CartridgeLightRifle: 15
   takingItems:
-    M14ClothingOuterArmorPlateStalker: 1    
     ClothingHeadHatBrownFlatcap: 1
+    M14ClothingOuterArmorPlateRedLin: 1    
 
 - type: npcTraderItemForCatalog
   id: NPC_Trader_red_middle
