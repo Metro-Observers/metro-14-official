@@ -63,19 +63,6 @@
     layers:
       Hair: HEAD
 
-- type: entity
-  parent: M14ClothingHeadHelmetHeavy
-  id: M14ClothingHeadHelmetSparta
-  name: Шлем от костюма бойца Спарты
-  description: Шлем бойца спарты, разработанный специально для выполнения спецопераций.
-  components:
-  - type: Sprite
-    sprite: _Metro14/Clothing/Head/Helmets/sparta.rsi
-  - type: Clothing
-    sprite: _Metro14/Clothing/Head/Helmets/sparta.rsi
-  - type: HideLayerClothing
-    layers:
-      Hair: HEAD
 #Red line
 - type: entity
   parent: M14ClothingHeadHelmetHeavy

@@ -194,23 +194,33 @@
     M14MagazineBoxLightRifleBigEmpty: 1
 
 - type: npcTraderItemForCatalog
+  id: NPC_Trader_Cartridges_30
+  name: Коробка патрон
+  iconId: MagazineBoxLightRifle
+  description: Складываю ваши патроны в коробку, всё.
+  givingItems:
+    CartridgeLightRifle: 61
+  takingItems:
+    MagazineBoxLightRifle: 1
+
+- type: npcTraderItemForCatalog
   id: NPC_Trader_Sparta_Start
   name: NPC_Trader_Base_Start
-  iconId: M14ClothingOuterArmorPlateCarrierBlue
+  iconId: M14ClothingHeadHelmetSparta
   description: Начальный набор всех спартанцев, такой можно найти в техах.
   givingItems:
     CartridgeLightRifle: 15
   takingItems:
+    M14ClothingHeadHelmetSparta: 1
     M14ClothingBeltSpartanWebbing: 1
-    M14ClothingHeadHelmetSparta: 1    
 
 - type: npcTraderItemForCatalog
   id: NPC_Trader_Sparta_middle
-  name: NPC_Trader_Base_middle
+  name: Стандартный набор
   iconId: M14ClothingOuterArmorHeavySparta
   description: Отличный набор, чтоб пойти на войну.
   givingItems:
-    CartridgeLightRifle: 30
+    CartridgeLightRifle: 35
   takingItems:
     M14ClothingOuterArmorHeavySparta: 1    
     M14ClothingHeadHelmetSparta: 1
@@ -276,7 +286,7 @@
 - type: npcTraderItemForCatalog
   id: NPC_Trader_Hidra_Start
   name: NPC_Trader_Base_Start
-  iconId: ClothingHeadHatGreysoft
+  iconId: M14ClothingHeadHatBeretGidra
   description: Стандартный бронежилет Гидры c пилоткой.
   givingItems:
     CartridgeLightRifle: 15
