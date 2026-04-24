@@ -2,7 +2,7 @@
   abstract: true
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: M14ClothingOuterArmorBase
-  name: бронежилет
+  name: Бронежилет
   description: Стандартный бронежилет I класса, обеспечивающий достойную защиту от большинства видов повреждений.
   components:
   - type: Armor
@@ -33,6 +33,17 @@
         Heat: 0.9
   - type: ExplosionResistance
     damageCoefficient: 0.9
+
+- type: entity
+  parent: M14ClothingOuterArmorHydra
+  id: M14ClothingOuterArmorPlateRedLin
+  name: Бронеразгрузки красной линии
+  description: Средний бронежилет II класса с разгрузкой и прикреплёнными к ней подсумками. Но, похоже, НИИ красной линии решило отказаться от подсумков в пользу бронезащиты. Теперь ваши подсумки — это красивое дополнение бронеразгрузки.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Clothing/OuterClothing/Armor/plateCarrierGreen.rsi
+  - type: Clothing
+    sprite: _Metro14/Clothing/OuterClothing/Armor/plateCarrierGreen.rsi
 
 - type: entity
   parent: M14ClothingOuterArmorBase
@@ -73,29 +84,15 @@
     damageCoefficient: 0.6
 
 - type: entity
-  parent: M14ClothingOuterArmorBase
+  parent: M14ClothingOuterArmorHeavyHydra
   id: M14ClothingOuterArmor6b13
+  name: Бронежилет 6Б13
   description: Тяжёлый бронежилет III класса, разработанный для ВС РФ, но теперь используемый вами для выживания в метро. Рассчитан на защиту от выстрелов и взрывов.
   components:
   - type: Sprite
     sprite: _Metro14/Clothing/OuterClothing/Armor/6b13.rsi
   - type: Clothing
     sprite: _Metro14/Clothing/OuterClothing/Armor/6b13.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.5
-        Slash: 0.5
-        Piercing: 0.4
-        Heat: 0.7
-  - type: ExplosionResistance
-    damageCoefficient: 0.35
-  - type: ClothingSpeedModifier
-    walkModifier: 0.8
-    sprintModifier: 0.8
-  - type: HeldSpeedModifier
-    walkModifier: 0.8
-    sprintModifier: 0.8
 
 - type: entity
   parent: M14ClothingOuterArmorBase
@@ -135,7 +132,7 @@
 - type: entity
   parent: M14ClothingOuterArmorBase
   id: M14ClothingOuterArmorPlateCarrierGreen
-  name: бронеразгрузка
+  name: Бронеразгрузка
   description: Средний бронежилет II класса с разгрузкой и прикреплёнными к ней подсумками. Разработана для спецподразделений силовых структур РФ, но теперь используемая вами для выживания в метро. Имеет достаточную защиту от множества видов повреждений.
   components:
   - type: Sprite
@@ -219,7 +216,7 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
   id: M14ClothingOuterArmorHeavyRedLine
-  name: тяжёлый бронекостюм
+  name: Тяжёлый бронекостюм
   description: Бронекостюм, специально созданный для защиты от многих видов повреждений. Из-за своих габаритов сильно замедляет движение.
   components:
   - type: Sprite
@@ -247,7 +244,7 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
   id: M14ClothingOuterArmorHeavyHydra
-  name: бронекостюм Четвёртой Гидры
+  name: Бронекостюм Четвёртой Гидры
   description: Бронекостюм для защиты от многих видов повреждений. Немного уступает тяжёлому бронекостюму по защите, но при этом меньше замедляет носителя.
   components:
   - type: Sprite
@@ -272,20 +269,31 @@
     slots: WITHOUT_POCKET
 
 - type: entity
+  parent: M14ClothingOuterArmorBase
+  id: M14ClothingOuterArmorHydra
+  name: Самодельный бронежилет гидры
+  description: Бронекостюм для защиты от осколков. Сделан рукими РУССКОГО ЧЕЛОВЕКА!
+  components:
+  - type: Sprite
+    sprite: _Metro14/Clothing/OuterClothing/Armor/nazbronik.rsi
+  - type: Clothing
+    sprite: _Metro14/Clothing/OuterClothing/Armor/nazbronik.rsi
+
+- type: entity
   parent: M14ClothingOuterArmorHeavyHydra
   id: M14ClothingOuterArmorHeavySparta
-  name: бронекостюм Спарты
+  name: Бронекостюм Спарты
   description: Бронекостюм для защиты от многих видов повреждений. Немного уступает тяжёлому бронекостюму по защите, но при этом меньше замедляет носителя.
   components:
   - type: Sprite
-    sprite: _Metro14/Clothing/OuterClothing/Armor/heavy_sparta.rsi
+    sprite: _Metro14/Clothing/OuterClothing/Armor/SpartanArmor.rsi
   - type: Clothing
-    sprite: _Metro14/Clothing/OuterClothing/Armor/heavy_sparta.rsi
+    sprite: _Metro14/Clothing/OuterClothing/Armor/SpartanArmor.rsi
 
 - type: entity
   parent: M14ClothingOuterArmorHeavyHydra
   id: M14ClothingOuterArmorHeavySpartaReconnaissance
-  name: разведовательный бронекостюм Спарты
+  name: Разведывательный бронекостюм Спарты
   description: Бронекостюм для защиты от многих видов повреждений. Немного уступает обычному бронекостюму Спарты, но при этом меньше замедляет носителя.
   components:
   - type: Armor

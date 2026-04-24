@@ -201,8 +201,8 @@
   givingItems:
     CartridgeLightRifle: 15
   takingItems:
-    M14ClothingOuterArmorPlateCarrierBlue: 1
-    M14ClothingHeadHelmetSparta1: 1    
+    M14ClothingBeltSpartanWebbing: 1
+    M14ClothingHeadHelmetSparta: 1    
 
 - type: npcTraderItemForCatalog
   id: NPC_Trader_Sparta_middle
@@ -210,7 +210,7 @@
   iconId: M14ClothingOuterArmorHeavySparta
   description: Отличный набор, чтоб пойти на войну.
   givingItems:
-    CartridgeLightRifle: 50
+    CartridgeLightRifle: 30
   takingItems:
     M14ClothingOuterArmorHeavySparta: 1    
     M14ClothingHeadHelmetSparta: 1
@@ -277,12 +277,12 @@
   id: NPC_Trader_Hidra_Start
   name: NPC_Trader_Base_Start
   iconId: ClothingHeadHatGreysoft
-  description: Стандартный бронежилет Гидры c кепкой.
+  description: Стандартный бронежилет Гидры c пилоткой.
   givingItems:
     CartridgeLightRifle: 15
   takingItems:
-    M14ClothingOuterArmorPlateHidra: 1    
-    ClothingHeadHatGreysoft: 1
+    M14ClothingHeadHatBeretGidra: 1
+    M14ClothingOuterArmorHydra: 1
 
 - type: npcTraderItemForCatalog
   id: NPC_Trader_red_Start
@@ -292,8 +292,8 @@
   givingItems:
     CartridgeLightRifle: 15
   takingItems:
-    M14ClothingOuterArmorPlateStalker: 1    
     ClothingHeadHatBrownFlatcap: 1
+    M14ClothingOuterArmorPlateRedLin: 1    
 
 - type: npcTraderItemForCatalog
   id: NPC_Trader_red_middle

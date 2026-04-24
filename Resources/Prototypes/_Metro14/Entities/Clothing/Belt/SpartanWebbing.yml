@@ -1,0 +1,26 @@
+- type: entity
+  parent: ClothingBeltMilitaryWebbing
+  id: M14ClothingBeltSpartanWebbing
+  name: РПС спарты
+  description: Легкая и удобная РПС, лучшее что есть у спарты.
+  components:
+  - type: Sprite
+    sprite:  _Metro14/Clothing/Belt/SpartanWebbing.rsi
+  - type: Clothing
+    sprite:  _Metro14/Clothing/Belt/SpartanWebbing.rsi
+    
+- type: entity
+  id: M14ClothingBeltSpartanWebbingFilled
+  parent: M14ClothingBeltSpartanWebbing
+  suffix: Filled
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: ChemistryBottleEpinephrine
+          amount: 2
+        - id: ChemistryBottleEphedrine
+          amount: 2
+        - id: ChemistryBottleOmnizine
+        - id: MedkitCombatFilled

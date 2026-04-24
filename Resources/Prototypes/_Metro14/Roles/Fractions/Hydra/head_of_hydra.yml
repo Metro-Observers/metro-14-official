@@ -13,8 +13,8 @@
   equipment:
     head: M14ClothingHeadHatBeaverHat
     neck: M14ClothingNeckCloakHydra
-    mask: ClothingMaskNeckGaiter
-    jumpsuit: M14ClothingUniformJumpsuitHydra
+    mask: M14ClothingMaskGidr
+    jumpsuit: M14ClothingUniformJumpsuitHydraOfic
     id: M14Tablet
     shoes: ClothingShoesBootsCombatFilled
     gloves: ClothingHandsGlovesCombat

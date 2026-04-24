@@ -1,0 +1,29 @@
+- type: entity
+  parent: ClothingMaskGas
+  id: M14ClothingMaskGasMasc
+  name: Противогаз
+  description: Обычный противогаз встречающийся у солдат спарты.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Clothing/Mask/CombatGasmask.rsi
+  - type: Clothing
+    sprite: _Metro14/Clothing/Mask/CombatGasmask.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.80
+
+- type: entity
+  parent: ClothingMaskGas
+  id: M14ClothingMaskGidr
+  name: Респиратор
+  description: Обычный респиратор встречающийся у солдат гидры.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Clothing/Mask/narzmask.rsi
+  - type: Clothing
+    sprite: _Metro14/Clothing/Mask/narzmask.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.80

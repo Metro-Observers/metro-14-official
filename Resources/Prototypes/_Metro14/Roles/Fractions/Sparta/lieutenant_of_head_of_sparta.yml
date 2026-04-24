@@ -12,10 +12,10 @@
   id: M14LieutenantOfHeadOfSpartaGear
   equipment:
     head: ClothingHeadHatBeretSecurityPilot
-    mask: ClothingMaskNeckGaiter
+    mask: M14ClothingMaskGasMasc
     jumpsuit: M14ClothingUniformJumpsuitSparta
     id: M14Tablet
-    shoes: ClothingShoesBootsCombatFilled
+    shoes: M14ClothingShoesBerets
     gloves: ClothingHandsGlovesCombat
     back: ClothingMilitaryBackpack
   storage:

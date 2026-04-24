@@ -12,8 +12,8 @@
   id: M14MinisterHydraGear
   equipment:
     head: ClothingHeadHatBeretSecurityPilot
-    mask: ClothingMaskNeckGaiter
-    jumpsuit: M14ClothingUniformJumpsuitHydra
+    mask: M14ClothingMaskGidr
+    jumpsuit: M14ClothingUniformJumpsuitHydraOfic
     id: M14Tablet
     shoes: ClothingShoesLeather
     gloves: ClothingHandsGlovesColorBlack

@@ -155,28 +155,38 @@
 
 - type: entity
   parent: M14UnsensoredClothingUniformBase
-  id: M14ClothingUniformJumpsuitHydra
-  name: чёрная униформа железнодорожника
-  description: Чёрная униформа железнодорожника, которую раньше использовали машинисты поездов и прочих локомотивов.
+  id: M14ClothingUniformJumpsuitHydraOfic
+  name: Офицерский китель
+  description: Чёрный офицерский китель МВД. С неё сорвали погоны. Её носят офицеры гидры.
   components:
   - type: Sprite
-    sprite: _Metro14/Clothing/Uniforms/Jumpsuit/hydra.rsi
+    sprite: _Metro14/Clothing/Uniforms/Jumpsuit/Hydra/hydra.rsi
   - type: Clothing
-    sprite: _Metro14/Clothing/Uniforms/Jumpsuit/hydra.rsi
+    sprite: _Metro14/Clothing/Uniforms/Jumpsuit/Hydra/hydra.rsi
+
+- type: entity
+  parent: M14UnsensoredClothingUniformBase
+  id: M14ClothingUniformJumpsuitHydra
+  name: Униформа солдата гидры
+  description: Чёрная униформа солдата гидры, которую раньше использовали подразделения ОМОН.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Clothing/Uniforms/Jumpsuit/Hydra/Narzistuni.rsi
+  - type: Clothing
+    sprite: _Metro14/Clothing/Uniforms/Jumpsuit/Hydra/Narzistuni.rsi
 
 # Sparta
 
 - type: entity
   parent: M14UnsensoredClothingUniformBase
   id: M14ClothingUniformJumpsuitSparta
-  name: комбинезон спартанца
+  name: Комбинезон спартанца
   description: Одежда самого обычного спартанца.
   components:
   - type: Sprite
-    sprite: _Metro14/Clothing/Uniforms/Jumpsuit/Sparta/sparta.rsi
+    sprite: _Metro14/Clothing/Uniforms/Jumpsuit/Sparta/SpartanJumpsuit.rsi
   - type: Clothing
-    sprite: _Metro14/Clothing/Uniforms/Jumpsuit/Sparta/sparta.rsi
-
+    sprite: _Metro14/Clothing/Uniforms/Jumpsuit/Sparta/SpartanJumpsuit.rsi
 
 # RedLine
 

@@ -13,10 +13,10 @@
   equipment:
     head: ClothingHeadHatBeretHoS
     neck: M14ClothingNeckCloakSparta
-    mask: ClothingMaskNeckGaiter
+    mask: M14ClothingMaskGasMasc
     jumpsuit: M14ClothingUniformJumpsuitSparta
     id: M14Tablet
-    shoes: ClothingShoesBootsCombatFilled
+    shoes: M14ClothingShoesBerets
     gloves: ClothingHandsMercGlovesCombat
     back: ClothingMilitaryBackpack
     pocket2: M14HeadOfSpartaKey
