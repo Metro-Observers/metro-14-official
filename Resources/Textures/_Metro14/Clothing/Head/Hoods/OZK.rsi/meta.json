@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "https://github.com/Mojave-Sun/mojave-sun-13/blob/HEAD/icons/mob/clothing/head.dmi, https://github.com/Mojave-Sun/mojave-sun-13/blob/HEAD/icons/obj/clothing/hats.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "equipped-HELMET",
+      "directions": 4
+    }
+  ]
+}

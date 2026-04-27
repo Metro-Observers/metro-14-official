@@ -151,3 +151,30 @@
   - type: HideLayerClothing
     slots:
     - Hair
+
+# Химза ОЗК
+# Спасибо игроку karal8 за его спрайт
+- type: entity
+  parent: ClothingHeadHatHoodRad
+  id: M14ClothingHeadHatHoodOZK
+  name: Капюшон от ОЗК
+  description: Капюшон от ОЗК. Ещё советские учёные сделали его, а он до сих пор держит радиацию. Делали же раньше вещи...
+  components:
+  - type: Sprite
+    sprite: _Metro14/Clothing/Head/Hoods/OZK.rsi
+  - type: Clothing
+    sprite: _Metro14/Clothing/Head/Hoods/OZK.rsi
+
+- type: entity
+  parent: ClothingOuterSuitRad
+  id: M14ClothingOuterSuitOZK
+  name: Химзащита ОЗК
+  description: Старый добрый ОЗК. Ещё советские учёные сделали его, а он до сих пор держит радиацию. Делали же раньше вещи...
+  components:
+  - type: Sprite
+    sprite: _Metro14/Clothing/OuterClothing/Coats/OZK.rsi
+  - type: Clothing
+    sprite: _Metro14/Clothing/OuterClothing/Coats/OZK.rsi
+  - type: ToggleableClothing
+    clothingPrototype: M14ClothingHeadHatHoodOZK
+    slot: head
