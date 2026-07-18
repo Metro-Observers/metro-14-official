@@ -138070,7 +138070,7 @@ entities:
     - type: Transform
       pos: 2.5,-292.5
       parent: 2
-- proto: CrateEmergencyRadiation
+- proto: M14CrateEmergencyRadiationOZK
   entities:
   - uid: 7684
     components:

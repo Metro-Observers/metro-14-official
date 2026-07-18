@@ -1,0 +1,16 @@
+- type: entity
+  parent: CrateEmergencyRadiation
+  id: M14CrateEmergencyRadiationOZK
+  name: Ящик укладочный ОЗК
+  description: Стандартный советский ящик от ОЗК. Выглядит как тяжелый ящик с чем-то важным, по типу резинового мешка, в котором ты утонешь в собственном поту, хах.
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:AllSelector
+        children:
+        - id: M14ClothingOuterSuitOZK
+          amount: 2
+        - id: GeigerCounter
+          amount: 2
+        - id: M14ClothingMaskGasMasc
+          amount: 2

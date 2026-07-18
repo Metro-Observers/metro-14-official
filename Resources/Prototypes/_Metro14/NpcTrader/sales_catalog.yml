@@ -18,6 +18,7 @@
     NPC_Trader_Offer_mosinka: -1
     NPC_Trader_Ashot_to_granade: 8
     NPC_Trader_Ashot_to_gra11: -1
+    NPC_Trader_Cartridges_30: -1
 
 - type: npcTraderSalesCatalog # один из возможных каталогов для торговца
   id: TestTrader2 
@@ -35,6 +36,7 @@
     NPC_Trader_Sparta_middle: 10
     NPC_Trader_Sparta_tail: -1
     NPC_Trader_Sparta_Foot: -1
+    NPC_Trader_Cartridges_30: -1
 
 - type: npcTraderSalesCatalog # один из возможных каталогов для торговца
   id: TraderHidra # Гидра
@@ -42,6 +44,7 @@
     NPC_Trader_Hidra_Start: -1
     NPC_Trader_Hidra_middle: 10
     NPC_Trader_Hidra_tail: -1
+    NPC_Trader_Cartridges_30: -1
 
 - type: npcTraderSalesCatalog # один из возможных каталогов для торговца
   id: TraderRed # Красная линия
@@ -51,6 +54,7 @@
     NPC_Trader_Sparta_tail: -1
     NPC_Trader_Sparta_Foot: -1
     NPC_Trader_Hidra_Foot: -1
+    NPC_Trader_Cartridges_30: -1
 
 - type: npcTraderSalesCatalog # один из возможных каталогов для торговца
   id: TraderHansa # Ганза
@@ -58,3 +62,4 @@
     NPC_Trader_Hansa_Start: -1
     NPC_Trader_Sparta_tail: -1
     NPC_Trader_Sparta_Foot: -1
+    NPC_Trader_Cartridges_30: -1
