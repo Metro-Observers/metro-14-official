@@ -1,6 +1,6 @@
 - type: latheRecipe
   id: M14WeaponRifleAk74
-  result: M14WeaponRifleAk74empty
+  result: M14WeaponRifleAk74Empty
   completetime: 30
   materials:
     Steel: 3500
