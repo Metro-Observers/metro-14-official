@@ -18,6 +18,7 @@
 - type: entity
   parent: M14ClothingOuterArmorBase
   id: M14ClothingOuterArmorPlateStalker
+  name: Бронежилет сталкера
   description: Лёгкий бронежилет I класса, обеспечивающий достаточную защиту от некоторых видов повреждений.
   components:
   - type: Sprite
@@ -48,6 +49,7 @@
 - type: entity
   parent: M14ClothingOuterArmorBase
   id: M14ClothingOuterArmorPlateHidra
+  name: Бронежилет Гидры (лёгкий)
   description: Лёгкий бронежилет I класса, обеспечивающий достаточную защиту от некоторых видов повреждений.
   components:
   - type: Sprite
@@ -67,6 +69,7 @@
 - type: entity
   parent: M14ClothingOuterArmorBase
   id: M14ClothingOuterArmor6b2
+  name: Бронежилет 6Б2
   description: Лёгкий бронежилет II класса, разработанный для ВС СССР, но теперь используемый вами для выживания в метро. Рассчитан на защиту от выстрелов и взрывов.
   components:
   - type: Sprite
@@ -97,6 +100,7 @@
 - type: entity
   parent: M14ClothingOuterArmorBase
   id: M14ClothingOuterArmorIOTVGreen
+  name: Бронежилет IOTV (зелёный)
   description: Тяжёлый бронежилет III класса, разработанный для ВС США, но теперь используемый вами для выживания в метро. Рассчитан на защиту от выстрелов и взрывов.
   components:
   - type: Sprite
@@ -122,6 +126,7 @@
 - type: entity
   parent: M14ClothingOuterArmorIOTVGreen
   id: M14ClothingOuterArmorIOTVBlack
+  name: Бронежилет IOTV (чёрный)
   description: Тяжёлый бронежилет III класса, разработанный для ВС США, но теперь используемый вами для выживания в метро. Рассчитан на защиту от выстрелов и взрывов.
   components:
   - type: Sprite
@@ -132,7 +137,7 @@
 - type: entity
   parent: M14ClothingOuterArmorBase
   id: M14ClothingOuterArmorPlateCarrierGreen
-  name: Бронеразгрузка
+  name: Бронеразгрузка (зелёная)
   description: Средний бронежилет II класса с разгрузкой и прикреплёнными к ней подсумками. Разработана для спецподразделений силовых структур РФ, но теперь используемая вами для выживания в метро. Имеет достаточную защиту от множества видов повреждений.
   components:
   - type: Sprite
@@ -170,6 +175,7 @@
 - type: entity
   parent: M14ClothingOuterArmorPlateCarrierGreen
   id: M14ClothingOuterArmorPlateCarrierBlue
+  name: Бронеразгрузка (синяя)
   components:
   - type: Sprite
     sprite: _Metro14/Clothing/OuterClothing/Armor/plateCarrierBlue.rsi
@@ -179,6 +185,7 @@
 - type: entity
   parent: M14ClothingOuterArmorPlateCarrierGreen
   id: M14ClothingOuterArmorPlateCarrierGray
+  name: Бронеразгрузка (серая)
   components:
   - type: Sprite
     sprite: _Metro14/Clothing/OuterClothing/Armor/plateCarrierGray.rsi
@@ -189,6 +196,7 @@
 - type: entity
   parent: M14ClothingOuterArmorBase
   id: M14ClothingOuterArmorPlateHeavy
+  name: Тяжёлый бронежилет
   description: Тяжёлый бронежилет IV класса, разработанный для ВС РФ, но теперь используемый вами для выживания в метро. Рассчитан на защиту от выстрелов и взрывов.
   components:
   - type: Sprite

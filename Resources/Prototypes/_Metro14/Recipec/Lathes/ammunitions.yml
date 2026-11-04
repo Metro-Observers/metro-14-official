@@ -49,3 +49,10 @@
     Steel: 10
     M14Gunpowder: 5
     Plastic: 5
+
+- type: latheRecipe
+  id: M14HellsingBolt
+  result: M14HellsingBolt
+  completetime: 2
+  materials:
+    Steel: 100

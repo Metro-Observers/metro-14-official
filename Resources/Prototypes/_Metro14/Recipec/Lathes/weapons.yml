@@ -46,3 +46,11 @@
   materials:
     Steel: 2000
     Wood: 500
+
+- type: latheRecipe
+  id: M14WeaponHellsing
+  result: M14WeaponHellsingEmpty
+  completetime: 25
+  materials:
+    Steel: 2500
+    Wood: 500

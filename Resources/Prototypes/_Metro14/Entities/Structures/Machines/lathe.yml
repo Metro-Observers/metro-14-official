@@ -123,6 +123,7 @@
         type: LatheBoundUserInterface
   - type: Lathe
     idleState: icon
+    # TEMP: ResearchClient/TechnologyDatabase/dynamicPacks off — client NRE on PVS near workbench
     staticPacks:
     - M14Weapons
     - M14Magazines

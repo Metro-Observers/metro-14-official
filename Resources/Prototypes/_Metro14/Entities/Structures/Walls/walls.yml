@@ -14,8 +14,10 @@
   components:
   - type: Sprite
     sprite: _Metro14/Structures/Walls/metal.rsi
+    state: full
   - type: Icon
     sprite: _Metro14/Structures/Walls/metal.rsi
+    state: full
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: Metallic
@@ -30,8 +32,10 @@
   components:
   - type: Sprite
     sprite: _Metro14/Structures/Walls/rustmetal.rsi
+    state: full
   - type: Icon
     sprite: _Metro14/Structures/Walls/rustmetal.rsi
+    state: full
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: Metallic
@@ -46,8 +50,10 @@
   components:
   - type: Sprite
     sprite: _Metro14/Structures/Walls/rmetal.rsi
+    state: full
   - type: Icon
     sprite: _Metro14/Structures/Walls/rmetal.rsi
+    state: full
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallicStrong
@@ -62,8 +68,10 @@
   components:
   - type: Sprite
     sprite: _Metro14/Structures/Walls/rrmetal.rsi
+    state: full
   - type: Icon
     sprite: _Metro14/Structures/Walls/rrmetal.rsi
+    state: full
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallicStrong
@@ -78,8 +86,10 @@
   components:
   - type: Sprite
     sprite: _Metro14/Structures/Walls/concrete.rsi
+    state: full
   - type: Icon
     sprite: _Metro14/Structures/Walls/concrete.rsi
+    state: full
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: Metallic
@@ -94,8 +104,10 @@
   components:
   - type: Sprite
     sprite: _Metro14/Structures/Walls/wood.rsi
+    state: full
   - type: Icon
     sprite: _Metro14/Structures/Walls/wood.rsi
+    state: full
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: Wood
