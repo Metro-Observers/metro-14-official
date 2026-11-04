@@ -1,0 +1,45 @@
+{
+    "version": 1,
+    "license": "Metro-14 CLA",
+    "copyright": "Metro-14, hand-pixeled",
+    "size": {
+        "x": 96,
+        "y": 96
+    },
+    "states": [
+        {
+            "name": "pumpjack_off",
+            "directions": 4
+        },
+        {
+            "name": "pumpjack",
+            "directions": 4,
+            "delays": [
+                [
+                    0.25,
+                    0.25,
+                    0.25,
+                    0.25
+                ],
+                [
+                    0.25,
+                    0.25,
+                    0.25,
+                    0.25
+                ],
+                [
+                    0.25,
+                    0.25,
+                    0.25,
+                    0.25
+                ],
+                [
+                    0.25,
+                    0.25,
+                    0.25,
+                    0.25
+                ]
+            ]
+        }
+    ]
+}

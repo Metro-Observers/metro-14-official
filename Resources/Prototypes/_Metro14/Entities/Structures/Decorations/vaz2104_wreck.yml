@@ -1,0 +1,26 @@
+- type: entity
+  id: M14Vaz2104Wreck
+  parent: BaseStructure
+  name: разбитый ВАЗ-2104
+  suffix: M14, Mapping
+  description: Ржавый универсал. Когда-то ездил по поверхности — теперь только обломок среди руин.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Structures/vaz2104_wreck.rsi
+    state: vaz2104_wreck
+    drawdepth: Mobs
+  - type: SpriteFade
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-1.4,-0.7,1.4,0.7"
+        density: 1500
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+  - type: Tag
+    tags:
+      - Structure

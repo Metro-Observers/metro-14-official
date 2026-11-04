@@ -1,0 +1,11 @@
+- type: techDiscipline
+  id: M14Metro
+  name: research-discipline-m14-metro
+  color: "#8b5a2b"
+  icon:
+    sprite: _Metro14/Interface/Misc/m14_research.rsi
+    state: metro
+  tierPrerequisites:
+    1: 0
+    2: 0.75
+    3: 0.75
