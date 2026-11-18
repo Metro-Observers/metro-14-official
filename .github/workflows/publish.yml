@@ -21,9 +21,21 @@ jobs:
     - name: Install dependencies
       run: sudo apt-get install -y python3-paramiko python3-lxml
 
-    - uses: actions/checkout@v4.2.2
+    - name: Checkout repository with private submodules
+      uses: actions/checkout@v4.2.2
       with:
-        submodules: 'recursive'
+        token: ${{ secrets.PRIVATE_SUBMODULE_TOKEN }}
+        submodules: false
+
+    - name: Setup private submodules
+      env:
+        PAT: ${{ secrets.PRIVATE_SUBMODULE_TOKEN }}
+      run: |
+        git config --global url."https://x-access-token:$PAT@github.com".insteadOf "https://github.com"
+        git submodule update --init --recursive
+        echo "Submodules status:"
+        git submodule status
+
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v4.1.0
       with:
@@ -31,8 +43,10 @@ jobs:
 
     - name: Get Engine Tag
       run: |
-        cd RobustToolbox
-        git fetch --depth=1
+        if [ -d "RobustToolbox" ]; then
+          cd RobustToolbox
+          git fetch --depth=1
+        fi
 
     - name: Install dependencies
       run: dotnet restore
