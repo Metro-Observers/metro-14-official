@@ -3,6 +3,7 @@ using System.Text.Json.Nodes;
 using Content.Shared.CCVar;
 using Content.Shared.GameTicking;
 using Robust.Server.ServerStatus;
+using Robust.Shared;
 using Robust.Shared.Configuration;
 
 namespace Content.Server.GameTicking
@@ -44,9 +45,15 @@ namespace Content.Server.GameTicking
                 jObject["name"] = _baseServer.ServerName;
                 jObject["map"] = _gameMapManager.GetSelectedMap()?.MapName;
                 jObject["round_id"] = _gameTicker.RoundId;
-                jObject["players"] = _cfg.GetCVar(CCVars.AdminsCountInReportedPlayerCount)
+
+                var players = _cfg.GetCVar(CCVars.AdminsCountInReportedPlayerCount)
                     ? _playerManager.PlayerCount
                     : _playerManager.PlayerCount - _adminManager.ActiveAdmins.Count();
+
+                
+                    players += Math.Max(0, _cfg.GetCVar(Metro14CVars.StatusFakePlayers));
+
+                jObject["players"] = players;
                 jObject["soft_max_players"] = _cfg.GetCVar(CCVars.SoftMaxPlayers);
                 jObject["panic_bunker"] = _cfg.GetCVar(CCVars.PanicBunkerEnabled);
                 jObject["run_level"] = (int) _runLevel;
