@@ -323,7 +323,7 @@
 
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
-  id: ClothingOuterArmorAblative
+  id: M14ClothingOuterArmorAblative
   name: Штурмовая абилитивная броня
   description: Поглощает наносимый урон до тех пор, пока его покрытие не выйдет из строя. Выдержит десяток выстрелов с ак-74
   components:
@@ -346,3 +346,75 @@
       - !type:PlaySoundBehavior
         sound:
           collection: MetalBreak
+
+- type: entity
+  parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
+  id: M14ClothingOuterArmorAblativeHeavy
+  name: Тяжёлая штурмовая абилитивная броня
+  description: Поглощает наносимый урон до тех пор, пока его покрытие не выйдет из строя. Выдержит около тринадцати выстрелов с ак-74
+  components:
+  - type: Sprite
+    sprite: _Metro14/Clothing/OuterClothing/Armor/ablative_heavy.rsi
+  - type: Clothing
+    sprite: _Metro14/Clothing/OuterClothing/Armor/ablative_heavy.rsi
+  - type: DamageTransferArmor
+  - type: SlotBlock
+    slots: [head]
+  - type: Damageable
+  - type: ExaminableDamage
+    messages: ShieldMessages
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 195
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+
+# Polis
+
+- type: entity
+  parent: M14ClothingOuterArmorBase
+  id: M14ClothingOuterArmorPolisLight
+  name: Жилет Полиса (лёгкий)
+  description: Лёгкий бронежилет I класса из плотного тёмно-синего брезента с кожаными ремнями и подсумками. На груди белая колонна Полиса.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Clothing/OuterClothing/Armor/polis_light.rsi
+  - type: Clothing
+    sprite: _Metro14/Clothing/OuterClothing/Armor/polis_light.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.7
+        Heat: 0.8
+  - type: ExplosionResistance
+    damageCoefficient: 0.8
+
+- type: entity
+  parent: M14ClothingOuterArmorPlateCarrierGreen
+  id: M14ClothingOuterArmorPolisMedium
+  name: Бронеразгрузка Полиса
+  description: Средний бронежилет II класса со стальными пластинами, наплечниками и подсумками. На груди бело-синий щиток Полиса.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Clothing/OuterClothing/Armor/polis_medium.rsi
+  - type: Clothing
+    sprite: _Metro14/Clothing/OuterClothing/Armor/polis_medium.rsi
+
+- type: entity
+  parent: M14ClothingOuterArmorPlateHeavy
+  id: M14ClothingOuterArmorPolisHeavy
+  name: Штурмовая броня Полиса
+  description: Тяжёлый штурмовой бронекостюм IV класса из слоёв стальных плит поверх синей подбивки. На нагруднике белая колонна Полиса. Сильно замедляет носителя.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Clothing/OuterClothing/Armor/polis_heavy.rsi
+  - type: Clothing
+    sprite: _Metro14/Clothing/OuterClothing/Armor/polis_heavy.rsi

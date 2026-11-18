@@ -12,6 +12,7 @@
   equipment:
     head: ClothingHeadHelmetScrap
     jumpsuit: M14ClothingUniformTelogreykaBlack
+    outerClothing: M14ClothingOuterArmorPolisMedium
     id: M14Tablet
     gloves: ClothingHandsGlovesFingerless
     shoes: ClothingShoesBootsWork
