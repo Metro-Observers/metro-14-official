@@ -1,0 +1,26 @@
+- type: entity
+  id: M14OilPumpjack
+  parent: BaseStructure
+  name: нефтекачка
+  suffix: M14, Mapping
+  description: Старая станок-качалка. Скрипит, но всё ещё качает.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Structures/Machines/pumpjack.rsi
+    state: pumpjack
+    drawdepth: Mobs
+  - type: SpriteFade
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-1.4,-0.5,1.4,0.5"
+        density: 1500
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+  - type: Tag
+    tags:
+      - Structure

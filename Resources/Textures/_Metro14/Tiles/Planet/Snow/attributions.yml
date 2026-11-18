@@ -1,0 +1,4 @@
+- files: ["snow.png", "double_edge_s.png", "double_edge_e.png", "double_edge_n.png", "double_edge_w.png", "single_edge_se.png", "single_edge_ne.png", "single_edge_nw.png", "single_edge_sw.png"]
+  license: "Metro-14 CLA"
+  copyright: "Metro-14"
+  source: "https://github.com/Metro-Observers/metro-14"

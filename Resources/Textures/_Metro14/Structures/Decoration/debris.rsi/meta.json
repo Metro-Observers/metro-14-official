@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "license": "Metro-14 CLA",
+  "copyright": "Metro-14",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "bricks_rubble"
+    },
+    {
+      "name": "construction_debris"
+    },
+    {
+      "name": "household_trash"
+    },
+    {
+      "name": "rotten_boards"
+    },
+    {
+      "name": "snowdrift"
+    }
+  ]
+}

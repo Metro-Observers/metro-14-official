@@ -1,0 +1,88 @@
+- type: entity
+  id: M14DebrisBase
+  parent: BaseStructure
+  abstract: true
+  suffix: M14, Mapping
+  components:
+  - type: Sprite
+    sprite: _Metro14/Structures/Decoration/debris.rsi
+    drawdepth: Objects
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,-0.4,0.4,0.4"
+        density: 200
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+
+- type: entity
+  id: M14DebrisBricksRubble
+  parent: M14DebrisBase
+  name: груда битого кирпича
+  description: Куча битого кирпича и щебня. Через неё не пройти.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Structures/Decoration/debris.rsi
+    state: bricks_rubble
+    drawdepth: Objects
+
+- type: entity
+  id: M14DebrisConstruction
+  parent: M14DebrisBase
+  name: груда строительного мусора
+  description: Обломки бетона, арматуры и прочий строительный хлам.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Structures/Decoration/debris.rsi
+    state: construction_debris
+    drawdepth: Objects
+
+- type: entity
+  id: M14DebrisHouseholdTrash
+  parent: M14DebrisBase
+  name: куча бытового мусора
+  description: Гниющие пакеты, банки и тряпьё. Пахнет соответствующе.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Structures/Decoration/debris.rsi
+    state: household_trash
+    drawdepth: Objects
+
+- type: entity
+  id: M14DebrisRottenBoards
+  parent: M14DebrisBase
+  name: груда гнилых досок
+  description: Трухлявые доски и щепки. Легко занозить ногу.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Structures/Decoration/debris.rsi
+    state: rotten_boards
+    drawdepth: Objects
+
+- type: entity
+  id: M14Snowdrift
+  parent: M14DebrisBase
+  name: сугроб
+  description: Плотный слой снега. Ноги вязнут по колено.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Structures/Decoration/debris.rsi
+    state: snowdrift
+    drawdepth: FloorObjects
+  - type: Fixtures
+    fixtures:
+      fix1:
+        hard: false
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.45,-0.45,0.45,0.45"
+        density: 60
+        layer:
+        - MidImpassable
+  - type: SpeedModifierContacts
+    walkSpeedModifier: 0.7
+    sprintSpeedModifier: 0.7

@@ -1,0 +1,98 @@
+# Unlocks every recipe from M14Weapons / M14Magazines / M14Ammunitions / M14Armor
+
+- type: technology
+  id: M14TechWeaponsBasic
+  name: research-technology-m14-weapons-basic
+  icon:
+    sprite: _Metro14/Interface/Misc/m14_research.rsi
+    state: weapons_basic
+  discipline: M14Metro
+  tier: 1
+  cost: 7500
+  recipeUnlocks:
+  - M14WeaponRifleAk74
+  - M14WeaponShotgunAshot
+  - M14WeaponShotgunDuplet
+  - M14WeaponSniperMosin
+
+- type: technology
+  id: M14TechWeaponsAdvanced
+  name: research-technology-m14-weapons-advanced
+  icon:
+    sprite: _Metro14/Interface/Misc/m14_research.rsi
+    state: weapons_advanced
+  discipline: M14Metro
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - M14Weaponak12
+  - M14bastard
+  technologyPrerequisites:
+  - M14TechWeaponsBasic
+
+- type: technology
+  id: M14TechMagazines
+  name: research-technology-m14-magazines
+  icon:
+    sprite: _Metro14/Interface/Misc/m14_research.rsi
+    state: magazines
+  discipline: M14Metro
+  tier: 1
+  cost: 4000
+  recipeUnlocks:
+  - M14MagazineLightRifle
+  - M14MagazineLightRifleExtended
+
+- type: technology
+  id: M14TechAmmunition
+  name: research-technology-m14-ammunition
+  icon:
+    sprite: _Metro14/Interface/Misc/m14_research.rsi
+    state: ammunition
+  discipline: M14Metro
+  tier: 1
+  cost: 5000
+  recipeUnlocks:
+  - M14MagazineBoxLightRifle
+  - M14ShellShotgun
+  - M14CartridgeLightRifle
+  - M14BoxLethalshot
+  - M14BoxShotgunSlug
+  - M14ShellShotgunSlug
+  - M14devicesDNVlethe
+
+- type: technology
+  id: M14TechArmor
+  name: research-technology-m14-armor
+  icon:
+    sprite: _Metro14/Interface/Misc/m14_research.rsi
+    state: armor
+  discipline: M14Metro
+  tier: 1
+  cost: 8000
+  recipeUnlocks:
+  - M14ClothingOuterArmorPlateStalker
+  - ClothingHeadHatHardhatWhite
+  - Floodlight
+  - M14ClothingOuterArmorPlateHeavy
+  - M14ClothingOuterArmorIOTVBlackRecipe
+  - M14ClothingOuterArmorPlateCarrierGreenRecipe
+  - M14ClothingOuterArmor6b2Recipe
+  - M14ClothingOuterArmorIOTVGreenRecipe
+  - M14ClothingOuterArmorPlateCarrierGrayRecipe
+  - M14ClothingOuterArmorPlateCarrierBlueRecipe
+
+- type: technology
+  id: M14TechHellsing
+  name: research-technology-m14-hellsing
+  icon:
+    sprite: _Metro14/Interface/Misc/m14_research.rsi
+    state: weapons_advanced
+  discipline: M14Metro
+  tier: 2
+  cost: 6000
+  recipeUnlocks:
+  - M14WeaponHellsing
+  - M14HellsingBolt
+  technologyPrerequisites:
+  - M14TechWeaponsBasic

@@ -1,0 +1,42 @@
+# Metro-14 RSI whitelist for validate_rsi.py
+# Only downgrades the semi-transparency check (alpha not 0/255) from ERROR to WARN.
+# Format: RSI path relative to Resources/Textures, or <rsi>/<state>; fnmatch globs ('*' also matches '/').
+
+# --- By design: upstream ports and ghosts ---
+_Metro14/Clothing/*/TgStation/*.rsi
+_Metro14/Mobs/Ghosts/ghost.rsi
+
+# --- By design: glass, liquids, shadows, flames (Metro Style) ---
+_Metro14/Clothing/Eyes/Glasses/*.rsi
+_Metro14/Clothing/Gloves/latex.rsi
+_Metro14/Clothing/Hands/Gloves/latex.rsi
+_Metro14/Objects/Consumable/Drinks/alexander.rsi
+_Metro14/Objects/plastic_waste.rsi
+_Metro14/Structures/Doors/Metal/metalgrate*.rsi
+_Metro14/Tiles/*water*.rsi
+_Metro14/Tiles/*/shoreline*
+_Metro14/Structures/Walls/Platforms/*.rsi
+_Metro14/Structures/Decoration/palette/palette_low.rsi
+_Metro14/Objects/Misc/Ligthers.rsi/lighter_flame
+_Metro14/Objects/Tools/lighters.rsi/lighter_flame
+
+# --- Soft edges (light anti-aliasing), warn only ---
+_Metro14/Clothing/Head/Helmets/sparta*.rsi
+_Metro14/Clothing/Head/Helmets/heavy_redline.rsi
+_Metro14/Clothing/Head/Hoods/*cult.rsi
+_Metro14/Structures/Decoration/banners.rsi
+_Metro14/Structures/Wallmounts/posters.rsi
+_Metro14/Mobs/homo_novus.rsi
+_Metro14/Structures/Walls/Fences/barbed_wire.rsi
+_Metro14/Structures/Railroad/rails.rsi
+_Metro14/Structures/Walls/Platforms/planks.rsi
+# Style 2026-10-17: upstream port / transparent casing (by design)
+_Metro14/Objects/Devices/TgStation/radio.rsi
+_Metro14/Objects/Tools/lighters.rsi/casing_*
+_Metro14/Objects/Misc/Ligthers.rsi/casing_*
+# Style 2026-10-17: light anti-aliasing 3-5%, warn only
+_Metro14/Structures/Decoration/palette/palette.rsi
+_Metro14/Clothing/OuterClothing/Armor/plateStalker.rsi
+_Metro14/Interface/job_icons.rsi/lentocnik
+_Metro14/Objects/Misc/busts.rsi/stalin_colored
+_Metro14/Objects/Weapons/Guns/Rifles/bastard.rsi/base

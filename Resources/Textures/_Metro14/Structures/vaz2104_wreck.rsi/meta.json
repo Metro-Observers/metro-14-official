@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "license": "Metro-14 CLA",
+  "copyright": "Made by Metro Pixel for Metro-14",
+  "size": {
+    "x": 128,
+    "y": 128
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "vaz2104_wreck",
+      "directions": 4
+    }
+  ]
+}

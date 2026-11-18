@@ -1,0 +1,22 @@
+- type: Tag
+  id: M14HellsingBolt
+
+# Steel bolt for M14WeaponHellsing. Based on upstream BaseArrow (EmbeddableProjectile, deleteOnCollide: false) so it sticks in targets and can be picked up again.
+- type: entity
+  parent: BaseArrow
+  id: M14HellsingBolt
+  name: стальной болт
+  description: Стальной болт для Хельсинга. Застревает в цели — его можно вытащить и использовать снова.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Objects/Weapons/Guns/Projectiles/hellsing_arrow.rsi
+    layers:
+    - state: icon
+  - type: Tag
+    tags:
+    - Arrow
+    - M14HellsingBolt
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 30

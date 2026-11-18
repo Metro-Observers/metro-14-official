@@ -1,0 +1,52 @@
+# Metro 2033 "Hellsing": pneumatic crossbow-rifle, 5 steel bolts.
+# Bolts are fired as-is (no cartridge) and embed in the target, so they can be pulled out and reused.
+- type: entity
+  name: Хельсинг
+  parent: [BaseWeaponSniper, BaseGunWieldable]
+  id: M14WeaponHellsing
+  description: Пневматический арбалет-винтовка метро. Стреляет стальными болтами из магазина на 5 штук; давление в баке приклада накачивается вручную.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Objects/Weapons/Guns/Rifles/hellsing.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Metro14/Objects/Weapons/Guns/Rifles/hellsing.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: Item
+    size: Large
+  - type: GunRequiresWield
+  - type: Gun
+    fireRate: 0.8
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      collection: BulletMiss
+  - type: BallisticAmmoProvider
+    capacity: 5
+    proto: M14HellsingBolt
+    whitelist:
+      tags:
+      - M14HellsingBolt
+    soundInsert:
+      path: /Audio/Weapons/Guns/Misc/arrow_nock.ogg
+  - type: MagazineVisuals
+    magState: mag
+    steps: 6
+    zeroVisible: true
+  - type: Appearance
+
+- type: entity
+  parent: M14WeaponHellsing
+  id: M14WeaponHellsingEmpty
+  suffix: Пустой
+  components:
+  - type: BallisticAmmoProvider
+    proto: null

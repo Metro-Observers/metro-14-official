@@ -24,11 +24,9 @@
   - type: LitOnPowered
   - type: ResearchServer
   - type: TechnologyDatabase
+    # Metro-14: vanilla trees hidden — only Metro discipline
     supportedDisciplines:
-    - Industrial
-    - Arsenal
-    - Experimental
-    - CivilianServices
+    - M14Metro
   - type: ApcPowerReceiver
     powerLoad: 200
   - type: ExtensionCableReceiver

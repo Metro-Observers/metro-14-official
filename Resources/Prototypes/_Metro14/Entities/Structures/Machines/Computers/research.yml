@@ -1,0 +1,15 @@
+- type: entity
+  parent: ComputerResearchAndDevelopment
+  id: M14ComputerResearchAndDevelopment
+  name: metro research computer
+  description: Used to unlock Metro workbench blueprints via R&D.
+
+- type: entity
+  parent: ResearchAndDevelopmentServer
+  id: M14ResearchAndDevelopmentServer
+  name: metro R&D server
+  description: Stores Metro Polis technologies and unlocked blueprints.
+  components:
+  - type: TechnologyDatabase
+    supportedDisciplines:
+    - M14Metro

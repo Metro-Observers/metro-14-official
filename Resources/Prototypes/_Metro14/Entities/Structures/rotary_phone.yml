@@ -24,10 +24,6 @@
       interfaces:
         enum.RMCTelephoneUiKey.Key:
           type: RMCTelephoneBui
-    - type: ActivatableUIBlacklist
-      blacklist:
-        components:
-          - Xeno
     - type: Appearance
     - type: GenericVisualizer
       visuals:
@@ -45,7 +41,6 @@
         - RMCGuideCommunicationsTowers
         - RMCGuideRoleCombatTechnician
         - RMCGuideRoleMaintenanceTechnician
-    - type: RMCMesonsNonviewable
 
 - type: entity
   parent: BaseItem
