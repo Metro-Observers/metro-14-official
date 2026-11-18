@@ -11,16 +11,13 @@
   id: M14StalkerVDNHGear
   equipment:
     head: M14ClothingHeadHatUshankaBrown
-    jumpsuit: M14ClothingUniformTelogreykaBrown
+    jumpsuit: M14ClothingUniformPolisRobe
     id: M14Tablet
     shoes: M14ClothingShoesValenki
     gloves: ClothingHandsGlovesHop
     back: ClothingBackpack
-    pocket1: M14WeaponShotgunAshot
+    pocket1: SurvivalKnife
     pocket2: M14RadioHandheldVDNH
-  storage:
-    back:
-    - ShellShotgunSlug
   inhand:
     - M14CasingLighter
     

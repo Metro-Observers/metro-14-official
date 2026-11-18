@@ -11,8 +11,9 @@
   id: M14HeadOfVDNHGear
   equipment:
     head: M14ClothingHeadHatUshankaBlack
-    neck: M14ClothingNeckMantleVDNH
-    jumpsuit: M14ClothingUniformTelogreykaBlack
+    jumpsuit: M14ClothingUniformPolisRobe
+    outerClothing: M14ClothingOuterArmorPolisLight
+    neck: M14ClothingNeckCloakPolis
     id: M14Tablet
     shoes: M14ClothingShoesValenki
     gloves: ClothingHandsGlovesHop

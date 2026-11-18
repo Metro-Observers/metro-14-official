@@ -34,13 +34,6 @@
             Ear: { state: rotary_phone_ear }
     - type: WallMount
       arc: 360
-    - type: GuideHelp
-      guides:
-        - RMCGuideMarineCommunications
-        - RMCLanguage
-        - RMCGuideCommunicationsTowers
-        - RMCGuideRoleCombatTechnician
-        - RMCGuideRoleMaintenanceTechnician
 
 - type: entity
   parent: BaseItem
@@ -51,5 +44,5 @@
       sprite: _Metro14/Objects/phone.rsi
       state: rpb_phone
     - type: Item
-      size: Invalid
+      size: Ginormous
     - type: RMCTelephone

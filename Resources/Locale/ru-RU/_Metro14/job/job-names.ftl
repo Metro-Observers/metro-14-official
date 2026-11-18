@@ -49,11 +49,11 @@ job-description-security-tech = Защищайте техников от люб�
 job-name-technic-tech = Техник
 job-description-technic-tech = Закупайте ресурсы у сталкеров и собирайте на своих станках произведения искусства!
 
-job-name-head-of-vdnh = Начальник ВДНХ
-job-description-head-of-vdnh = Вы обладаете всей полнотой власти на этой станции.
+job-name-head-of-vdnh = Начальник Полиса
+job-description-head-of-vdnh = Вы обладаете всей полнотой власти в Полисе. Держите порядок, берегите знания и людей.
 
-job-name-security-vdnh = Охранник ВДНХ
-job-description-security-vdnh = Защищайте ВДНХ от всяких тварей из тьмы!
+job-name-security-vdnh = Военный Полиса
+job-description-security-vdnh = Охраняйте Полис, его КПП и сопровождайте учёных на вылазках.
 
-job-name-stalker-vdnh = Сталкер
-job-description-stalker-vdnh = Ищите следы старой цивилизации по техничкам, провозите контрабанду, нанимайтесь, куда посчитаете нужным, в общем и целом, зарабатывайте!
+job-name-stalker-vdnh = Учёный Полиса
+job-description-stalker-vdnh = Изучайте аномалии, мутантов и находки из тоннелей, ведите записи и делитесь знаниями. На вылазки берите военных.

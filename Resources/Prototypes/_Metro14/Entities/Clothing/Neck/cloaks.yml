@@ -16,3 +16,14 @@
   - type: Sprite
     sprite: _Metro14/Clothing/Neck/Cloaks/sparta.rsi
  
+
+- type: entity
+  parent: ClothingNeckBase
+  id: M14ClothingNeckCloakPolis
+  name: плащ лидера Полиса
+  description: Тяжёлый плащ цвета морской волны с золотой колонной Полиса на спине. Его носит тот, кто хранит последние знания человечества.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Clothing/Neck/Cloaks/polis.rsi
+  - type: Clothing
+    sprite: _Metro14/Clothing/Neck/Cloaks/polis.rsi

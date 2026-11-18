@@ -1,7 +1,7 @@
 job-supervisors-ganza = Начальнику станции,торговому агенту.
 job-supervisors-torg = Начальнику станции
 job-supervisors-tech = Начальнику станции
-job-supervisors-vdnh = Начальнику станции
+job-supervisors-vdnh = Начальнику Полиса
 job-supervisors-sparta = Полковнику,Подполковнику
 job-supervisors-podpolkovnik = Полковнику
 job-supervisors-gydra = Фюреру,председателю гидры

@@ -224,3 +224,14 @@
         Heat: 0.85
         Radiation: 0.85
         Caustic: 0.85
+
+- type: entity
+  parent: M14UnsensoredClothingUniformBase
+  id: M14ClothingUniformPolisRobe
+  name: халат Полиса
+  description: Длинный синий халат с белой колонной Полиса на груди. Такие носят учёные и врачи Полиса.
+  components:
+  - type: Sprite
+    sprite: _Metro14/Clothing/Uniforms/Jumpsuit/polis_robe.rsi
+  - type: Clothing
+    sprite: _Metro14/Clothing/Uniforms/Jumpsuit/polis_robe.rsi

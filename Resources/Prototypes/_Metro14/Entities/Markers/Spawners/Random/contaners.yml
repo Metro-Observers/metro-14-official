@@ -68,6 +68,11 @@
        - id: ClothingMaskBandSkull
        - id: M14ClothingEyesGlassesSunglasses
        - id: M14ClothingUniformJumpsuitHansaSoldier
+    # Ablative heavy armor (below average)
+    - !type:AllSelector
+      weight: 15
+      children:
+       - id: M14ClothingOuterArmorAblativeHeavy
 
 - type: entity
   id: M14ClosetMaintenanceFilledRandom
